@@ -1,0 +1,105 @@
+
+.victory_wrap {
+  margin-top: 250px;
+  margin-bottom: 90px;
+  padding-top: 125px;
+  padding-left: 152px;
+  padding-bottom: 136px;
+}
+.victory-wrap {
+  position: relative;
+  background: #872D36;
+}
+.victory-wrap:before {
+  position: absolute;
+  content: '';
+  width: 500px;
+  height: 700px;
+  left: 160px;
+  bottom: -90px;
+  background: url(/images/main/IMG1.png) no-repeat;
+} 
+.victory-wrap:after {
+  position: absolute;
+  content: '';
+  width: 60px;
+  height: 610px;
+  left: 100px;
+  bottom: 0px;
+  background: #9F575E;
+}
+.victory_content {
+  position: relative;
+  z-index: 1;
+}
+.victory__text1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.2);
+}
+.victory__text2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 154px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.2);
+  text-align: right;
+  margin-right: 112px;
+}
+.victory__text3 {
+  max-width: 800px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 83px;
+  margin-bottom: 37px;
+}
+.victory__text4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 95.2577px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #D1232A;
+  margin-right: 70px;
+}
+.victory__text5 {
+  position: relative;
+  max-width: 900px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.victory__text5:before {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: 140px;
+  top: 4px;
+  left: -40px;
+  background: #D1232A;
+}
+.victory-textblock {
+  display: flex;
+  justify-content: flex-end;
+}
+.victory_textblock {
+  position: relative;
+  margin-right: 112px;
+  z-index: 1;
+}

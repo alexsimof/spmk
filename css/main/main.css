@@ -1,0 +1,156 @@
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+.titleblock {
+  width: 50%;
+}
+.main_titleblock {
+  margin-left: 85px;
+}
+.titleblock__big {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 179.692px;
+  line-height: 219px;
+  letter-spacing: -0.05em;
+  color: rgba(164, 196, 204, 0.2);
+}
+.titleblock__title {
+  position: relative;
+  max-width: 400px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: #404040;
+  margin-top: -103px;
+  margin-bottom: 50px;
+  margin-left: 133px;
+}
+.titleblock__title:before {
+  position: absolute;
+  content: '';
+  bottom: 6px;
+  left: -60px;
+  width: 4px;
+  height: 188px;
+  background: #D1232A;
+}
+.titleblock__subtitle {
+  max-width: 498px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+  margin-left: 133px;
+}
+
+/* slider */
+
+.slider {
+  width: 50%;
+}
+.swiper-slide {
+  position: relative;
+}
+.swiper__img {
+  width: 800px;
+}
+
+/* swiper-button-prev */
+
+.swiper-button-prev {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  background: #D1232A;
+  left: auto;
+  right: 100px;
+  top: auto;
+  bottom: 0;
+}
+.swiper-button-prev:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 30px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(135deg);
+}
+.swiper-button-prev:before {
+  position: absolute;
+  content: '';
+  width: 40px;
+  right: 30px;
+  top: 54%;
+  border: 1px solid #fff
+}
+
+/* swiper-button-next */
+
+.swiper-button-next {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  background: #D1232A;
+  right: 0;
+  top: auto;
+  bottom: 0;
+}
+.swiper-button-next:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  right: 30px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg);
+}
+.swiper-button-next:before {
+  position: absolute;
+  content: '';
+  width: 40px;
+  left: 30px;
+  top: 54%;
+  border: 1px solid #fff
+}
+.swiper__line {
+  position: relative;
+}
+.swiper__line:after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 45px;
+  top: -20px;
+  right: -50px;
+  background: #fff;
+}
+
+/* pagination */
+
+.swiper-pagination {
+  position: relative;
+}
+.swiper-panel {
+  position: absolute;
+  width: 100px;
+  height: 800px;
+  left: 0;
+  bottom: 0;
+  background: #F0F0F0
+}
