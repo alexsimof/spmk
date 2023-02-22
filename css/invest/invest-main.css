@@ -59,6 +59,7 @@
 }
 
 .main-cart__title {
+  position: relative;
   width: 250px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -67,6 +68,33 @@
   line-height: 110%;
   color: #303030;
   margin-bottom: 110px;
+}
+.main-cart_title1:after {
+  position: absolute;
+  content: '';
+  width: 55px;
+  height: 55px;
+  top: 0;
+  right: -190px;
+  background: url(/images/invest/Icon_info.svg) no-repeat;
+}
+.main-cart_title2:after {
+  position: absolute;
+  content: '';
+  width: 55px;
+  height: 55px;
+  top: 0;
+  right: -190px;
+  background: url(/images/invest/icon_graphic.png) no-repeat;
+}
+.main-cart_title3:after {
+  position: absolute;
+  content: '';
+  width: 55px;
+  height: 55px;
+  top: 0;
+  right: -190px;
+  background: url(/images/invest/Icon_report.png) no-repeat;
 }
 
 .main-textblock1__text,
