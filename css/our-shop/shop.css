@@ -1,0 +1,118 @@
+
+.main-wrapper {
+  margin-bottom: 100px;
+}
+.main-bg {
+  background: url(/images/shop/BG_img.png);
+  background-size: cover;
+  padding: 380px 100px 70px 100px;
+}
+.main-title {
+  max-width: 650px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-left: 60px;
+  margin-bottom: 95px;
+}
+.main-shopmenu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #872D36;
+  padding: 40px 60px 50px 60px
+}
+.main-nav {
+  position: relative;
+  width: 430px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  color: #FFFFFF;
+  border-bottom: 2px solid #9F575E;
+  padding-bottom: 8px;
+}
+.main-nav:after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  right: 0;
+  top: 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg);
+}
+.main__button1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  color: #FFFFFF;
+  margin-left: auto;
+}
+.main__button2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  color: #FFFFFF;
+}
+.main__line {
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #9f575e;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.adress-wrap {
+  padding: 0 100px;
+  margin-bottom: 150px;
+}
+.adress-cart {
+  display: flex;
+  align-items: flex-start;
+  border-top: 1px solid #C9C7C7;
+  padding: 40px 60px;
+}
+.adress-cart:last-child {
+  border-bottom: 1px solid #C9C7C7;
+}
+
+.adress-blcok1 {
+  width: 40%;
+}
+.adress-blcok2 {
+  display: flex;
+  align-items: flex-start;
+}
+.adress-tab {
+  width: 400px;
+}
+.adress-sity {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #303030;
+}
+.adress-str {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #404040;
+}

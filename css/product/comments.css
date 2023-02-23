@@ -1,6 +1,16 @@
 
 .comments-wrap {
+  position: relative;
   padding: 0 100px;
+}
+.comments-wrap:after {
+  position: absolute;
+  content: '';
+  width: 287px;
+  height: 578px;
+  bottom: -130px;
+  right: 0;
+  background: url(/images/prod/decor2.png);
 }
 .comments-block {
   max-width: 842px;
