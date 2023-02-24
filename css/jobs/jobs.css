@@ -95,8 +95,11 @@
   margin-top: 20px;
   margin-bottom: 17px;
 }
-
-.vacancies__link {
+.vacancies-moreblock {
+  display: flex;
+  align-items: center;
+}
+.vacancies__more {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -104,7 +107,36 @@
   line-height: 120%;
   color: #404040;
 }
+.vacancies__link {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #D1232A;
+  border-radius: 50%;
+  margin-left: 20px;
+}
 
+.vacancies__link:before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 1px;
+  top: 9px;
+  left: 0;
+  background: #D1232A;
+}
+.vacancies__link:after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  top: 7px;
+  left: 6px;
+  border-right: 1px solid #D1232A;
+  border-bottom: 1px solid #D1232A;
+  transform: rotate(-45deg);
+}
 .vacancies__graf {
   font-family: 'Montserrat';
   font-style: normal;
@@ -125,4 +157,235 @@
 .vacancies__graf {
   display: inline-block;
   width: 500px;
+}
+
+.reguest-wrap {
+  background: radial-gradient(52.5% 104.08% at 5.66% 6.25%, #FAFBFC 0%, #EDF3F5 100%);
+  padding: 100px 160px 120px;
+}
+
+.reguest__text {
+  max-width: 535px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 100%;
+  text-align: right;
+  color: #FFFFFF;
+  margin-left: auto;
+}
+
+
+.reguest__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+  color: #303030;
+  margin-bottom: 70px;
+}
+.reguest-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reguest__fio {
+  width: 49%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #404040;
+  border-bottom: 1px solid #454545;
+  padding-bottom: 10px;
+  margin-right: 60px;
+}
+
+.reguest__phone {
+  width: 49%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #404040;
+  border-bottom: 1px solid #454545;
+  padding-bottom: 10px;
+}
+
+.reguest__file {
+  position: relative;
+  width: 48%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #404040;
+  border-bottom: 1px solid #454545;
+  padding-bottom: 10px;
+  margin-top: 46px;
+}
+.reguest__file:after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 23px;
+  right: 0;
+  top: 0;
+  background: url(/images/jobs/Clip.png);
+
+}
+.reguest__textera {
+  width: 100%;
+  height: 200px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #404040;
+  border: 1px solid #454545;
+  resize: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+.reguest__checkbox {
+  width: 30px;
+  height: 30px;
+}
+.reguest-checkblock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-bottom: 110px;
+}
+.reguest__checktxt {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #404040;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.reguest__text2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+}
+.reguest__send {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+  margin-right: 10px;
+}
+.reguest__link {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #d1232a;
+  border-radius: 50%
+}
+.reguest__link:before {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 2px;
+  left: 0;
+  top: 28px;
+  background: #fff;
+}
+.reguest__link:after {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 8px;
+  left: 23px;
+  top: 25px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg);
+}
+
+/* job2 */
+
+.singljob-wrapper {
+  position: relative;
+  padding: 115px 160px 100px; 
+}
+.singljob-titlewrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.singljob__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+  color: #303030;
+}
+.singljob__title2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #303030;
+  margin-top: 135px;
+  margin-bottom: 30px;
+}
+.singljob__price {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+  text-align: right;
+  color: #303030;
+}
+.singljob-desc {
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.singljob__text1 {
+  width: 30%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+}
+
+.singljob__text2 {
+  width: 40%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+}
+.singljob__badge {
+  position: absolute;
+  right: 0;
+  top: 150px;
 }

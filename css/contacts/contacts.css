@@ -1,0 +1,96 @@
+
+.quality-wrap {
+  background: url(/images/contact/BG_img.png) no-repeat;
+  background-size: cover;
+  padding: 70px 0 100px 80px;
+}
+
+.quality__text1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.quality__text2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.3);
+  margin-left: 160px;
+}
+
+.quality__text3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.3);
+  margin-left: 160px;
+}
+
+.quality__text4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-left: 160px;
+}
+
+.maps-wrap {
+  position: relative;
+  background: #EDF3F5;
+  padding: 190px 0 250px 160px;
+}
+
+.maps__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #303030;
+  margin-bottom: 7px;
+}
+
+.maps__text2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #404040;
+  margin-bottom: 33px;
+}
+
+.maps__title2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #303030;
+  margin-bottom: 6px;
+}
+.contacts_page {
+  margin-bottom: 65px;
+}
+.maps__img {
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+.reguest_wrap {
+  background: #fff;
+}
+.reguest_border {
+  border-bottom: 1.5px solid #D9D9D9;
+}
