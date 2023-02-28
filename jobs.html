@@ -48,7 +48,7 @@
         <p class="vacancies__name">Составитель фарша</p>
         <div class="vacancies-moreblock">
           <span class="vacancies__more">Подробнее</span>
-          <a href="#" class="vacancies__link"></a>
+          <a href="http://site-spmk/jobs2.html" class="vacancies__link"></a>
         </div>
       </div>
       <div class="vacancies-block">
@@ -68,18 +68,33 @@
         <input class="reguest__fio" type="text" required placeholder="ФИО*">
         <input class="reguest__phone" type="text" required placeholder="Номер телефона*">
       </div>
-      <p class="reguest__file">Прикрепить резюме</p>
+      <div class="reguest-addfile">
+        <div class="form-group">
+          <label class="label">
+            <span class="title">Прикрепить резюме</span>
+            <input type="file">
+            <i class="material-icons"></i>
+          </label>
+        </div>
+      </div>
       <textarea class="reguest__textera" name="comment" placeholder="Оставьте ваш комментарий"></textarea>
       <div class="reguest-checkblock">
-        <input class="reguest__checkbox" type="checkbox">
-        <span class="reguest__checktxt">Соглашаюсь на обработку персональных данных</span>
-        <p class="reguest__send">Отправить</p>
-        <a href="#" class="reguest__link"></a>
+        <label class="reguest-checkbox checks">
+          <input type="checkbox"/>
+          <div class="reguest-checkbox__checkmark"></div>
+          <div class="reguest-checkbox__body">Соглашаюсь на обработку персональных данных</div>
+        </label>
+        <div class="reguest-sendblock">
+          <p class="reguest__send">Отправить</p>
+          <a href="#" class="reguest__link"></a>
+        </div>
       </div>
       <p class="reguest__text2">Высылайте свое резюме на электронный адрес kadry@spmk.ru, свяжитесь с нами по телефону +7 496 552-20-21 или воспользуйтесь формой обратной связи.</p>
     </div>
   </div>
 </div>
-
+<div class="back-to-top">
+  <a href="#" class="back__top back-to-top_hide"></a>
+</div>
 
 <!--#include file="footer.html"-->

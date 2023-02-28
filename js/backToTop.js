@@ -1,14 +1,16 @@
 
 const btnUp = {
   el: document.querySelector('.back__top'),
-  
+
   show() {
     this.el.classList.remove('back-to-top_hide');
   },
 
+  
   hide() {
     this.el.classList.add('back-to-top_hide');
   },
+
 
   addEventListener() {
 
@@ -16,7 +18,7 @@ const btnUp = {
 
       const scrollY = window.scrollY || document.documentElement.scrollTop;
 
-      scrollY > 400 ? this.show() : this.hide();
+      scrollY > 600 ? this.show() : this.hide();
     });
 
     document.querySelector('.back__top').onclick = () => {

@@ -3,22 +3,23 @@
 .back__top {
   position: fixed;
   right: 100px;
-  bottom: 100px;
+  bottom: 160px;
   display: block;
   width: 80px;
   height: 80px;
   background: #EDF3F5;
   border-radius: 50%;
+  border: 2px solid #fff;
   margin-left: auto;
-  margin-bottom: 60px;
+  z-index: 10;
 }
 .back__top:before {
   position: absolute;
   content: '';
   width: 8px;
   height: 8px;
-  left: 36px;
-  top: 31px;
+  left: 34px;
+  top: 28px;
   border-top: 2px solid #404040;
   border-right: 2px solid #404040;
   transform: rotate(-45deg);
@@ -28,8 +29,8 @@
   content: '';
   width: 2px;
   height: 22px;
-  left: 39px;
-  top: 32px;
+  left: 37px;
+  top: 29px;
   background: #404040;
 }
 .back-to-top_hide {

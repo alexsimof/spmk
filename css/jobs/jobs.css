@@ -1,9 +1,18 @@
 
-
 .main-wrapper {
+  position: relative;
   display: flex;
   align-items: center;
   padding: 0 100px;
+}
+.main-wrapper:after {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 40px;
+  left: 80px;
+  bottom: 0;
+  background: url(/images/main/Scroll.png) no-repeat;
 }
 
 .main-texts {
@@ -137,6 +146,11 @@
   border-bottom: 1px solid #D1232A;
   transform: rotate(-45deg);
 }
+.vacancies__link:hover:before {
+  width: 20px;
+  left: -8px;
+  transition: 0.2s;
+}
 .vacancies__graf {
   font-family: 'Montserrat';
   font-style: normal;
@@ -203,7 +217,7 @@
   padding-bottom: 10px;
   margin-right: 60px;
 }
-
+.reguest__email,
 .reguest__phone {
   width: 49%;
   font-family: 'Montserrat';
@@ -215,7 +229,10 @@
   border-bottom: 1px solid #454545;
   padding-bottom: 10px;
 }
-
+.reguest__email {
+  width: 48%;
+  margin-top: 45px;
+}
 .reguest__file {
   position: relative;
   width: 48%;
@@ -237,8 +254,64 @@
   right: 0;
   top: 0;
   background: url(/images/jobs/Clip.png);
-
 }
+
+/* inputfile */
+
+.reguest-addfile {
+  margin-top: 45px;
+}
+.reguest-addfile input[type=file] {
+  outline: 0;
+  opacity: 0;
+  pointer-events: none;
+  user-select: none
+}
+
+.reguest-addfile .label {
+  width: 48%;
+  display: block;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #454545;
+  padding-bottom: 10px;
+}
+
+.reguest-addfile .label i {
+  display: block;
+  width: 20px;
+  height: 23px;
+  background: url(/images/jobs/Clip.png) no-repeat;
+}
+
+/* .reguest-addfile .label i,
+.reguest-addfile .label .title {
+  color: grey;
+  transition: 200ms color
+}
+
+.reguest-addfile .label:hover {
+  border: 2px solid #000
+}
+.reguest-addfile .label:hover i,
+.reguest-addfile .label:hover .title {
+  color: #000
+} */
+
+.title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #404040;
+}
+
+/*  */
+
+
 .reguest__textera {
   width: 100%;
   height: 200px;
@@ -254,18 +327,83 @@
   padding-left: 20px;
   margin-top: 50px;
 }
+
+/*  */
+
 .reguest__checkbox {
   width: 30px;
   height: 30px;
 }
+
+.reguest-checkbox.checks {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.reguest-checkbox.checks input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.reguest-checkbox.checks input:checked~.reguest-checkbox__checkmark {
+  background-color: #D1232A;
+}
+
+.reguest-checkbox.checks input:checked~.reguest-checkbox__checkmark:after {
+  opacity: 1;
+}
+
+.reguest-checkbox.checks:hover input~.reguest-checkbox__checkmark {
+  border: 2px solid #D1232A
+}
+
+.reguest-checkbox.checks:hover input:checked~.reguest-checkbox__checkmark {
+  background-color: #D1232A;
+}
+
+.reguest-checkbox.checks .reguest-checkbox__checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: 1px solid #C9C7C7;
+  transition: background-color 0.25s ease;
+  border-radius: 4px;
+}
+
+.reguest-checkbox.checks .reguest-checkbox__checkmark:after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 2px;
+  width: 10px;
+  height: 17px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+/* .checkblock */
+
 .reguest-checkblock {
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 45px;
   margin-bottom: 110px;
 }
-.reguest__checktxt {
+.reguest-checkbox__body {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -273,7 +411,7 @@
   line-height: 140%;
   color: #404040;
   margin-left: 10px;
-  margin-right: auto;
+  margin-top: 7px;
 }
 
 .reguest__text2 {
@@ -284,6 +422,12 @@
   line-height: 120%;
   color: #404040;
 }
+.reguest-sendblock {
+  width: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .reguest__send {
   font-family: 'Montserrat';
   font-style: normal;
@@ -291,10 +435,11 @@
   font-size: 18px;
   line-height: 120%;
   color: #404040;
-  margin-right: 10px;
+
 }
 .reguest__link {
   position: relative;
+  display: block;
   width: 60px;
   height: 60px;
   background: #d1232a;
@@ -319,6 +464,21 @@
   border-right: 2px solid #fff;
   border-bottom: 2px solid #fff;
   transform: rotate(-45deg);
+}
+.reguest__link:hover {
+  width: 66px;
+  height: 66px;
+  transition: 0.2s;
+}
+.reguest__link:hover:before {
+  top: 32px;
+  width: 50px;
+  transition: 0.2s;
+}
+.reguest__link:hover:after {
+  top: 29px;
+  left: 43px;
+  transition: 0.2s;
 }
 
 /* job2 */

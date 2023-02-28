@@ -173,3 +173,9 @@
   border-bottom: 1px solid #464646;
   transform: rotate(-45deg);
 }
+.main-textblock3__link1:hover:before,
+.main-textblock3__link2:hover:before {
+  width: 15px;
+  left: -6px;
+  transition: 0.2s;
+}

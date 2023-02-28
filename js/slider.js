@@ -6,19 +6,20 @@ const swiper = new Swiper('.swiper', {
 
 
   // If we need pagination
-  // pagination: {
-  //   el: '.swiper-pagination',
-  //   type: 'custom',
-  // },
-
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'custom',
+  },
+  
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+  
 });

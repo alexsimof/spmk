@@ -98,3 +98,16 @@
   top: 20px;
   background: #fff;
 }
+
+.director_decor {
+  position: relative;
+}
+.director_decor:before {
+  position: absolute;
+  content: '';
+  width: 480px;
+  height: 650px;
+  right: 0;
+  top: -260px;
+  background: url(/images/main/Shape_Line2.png) no-repeat;
+}

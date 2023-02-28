@@ -1,9 +1,19 @@
 
 .main-wrapper {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 100px;
+}
+.main-wrapper:after {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 40px;
+  left: 80px;
+  bottom: 0;
+  background: url(/images/main/Scroll.png) no-repeat;
 }
 .titleblock {
   width: 50%;
@@ -58,6 +68,7 @@
 
 .slider {
   width: 50%;
+
 }
 .swiper-slide {
   position: relative;
@@ -150,7 +161,8 @@
   position: absolute;
   width: 100px;
   height: 800px;
-  left: 0;
+  left: 0px;
   bottom: 0;
-  background: #F0F0F0
+  background: #F0F0F0;
+  z-index: 2;
 }
