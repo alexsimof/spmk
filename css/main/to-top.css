@@ -36,3 +36,10 @@
 .back-to-top_hide {
   display: none;
 }
+
+@media screen and (max-width: 1440px) {
+  .back__top {
+    right: 20px;
+  }
+
+}

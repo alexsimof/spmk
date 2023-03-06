@@ -12,6 +12,7 @@
   position: relative;
   width: 33%;
   padding-right: 100px;
+  overflow: hidden;
 }
 .social-cart:before {
   position: absolute;
@@ -65,14 +66,4 @@
   top: 7px;
   background: #D1232A;
   border-radius: 50%;
-}
-.social_cart1 {
-  width: 592px;
-}
-.social_cart2 {
-  width: 596px;
-  margin-left: 100px;
-}
-.social_cart3 {
-  width: 511px;
 }
