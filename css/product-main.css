@@ -18,7 +18,7 @@
   height: 45px;
   top: 33px;
   left: 35px;
-  background: url(/images/prod/Polygon1.svg) no-repeat;
+  background: url(../images/Polygon1.svg) no-repeat;
 }
 
 .prodact-wrap {
@@ -39,7 +39,7 @@
   height: 753px;
   left: 0;
   bottom: -95px;
-  background: url(/images/prod/decor.png) no-repeat;
+  background: url(../images/decor.png) no-repeat;
 }
 .prodact-images {
   position: relative;

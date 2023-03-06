@@ -1,6 +1,6 @@
 
 .main-wrapper {
-  background: url(/images/invest/BG_img.png) no-repeat;
+  background: url(../images/BG_img.png) no-repeat;
   padding-top: 300px;
   padding-bottom: 400px;
 }
@@ -37,7 +37,7 @@
   height: 230px;
   right: 35px;
   bottom: 0;
-  background: url(/images/invest/1.svg) no-repeat;
+  background: url(../images/1.svg) no-repeat;
 }
 .main_cart2:before {
   position: absolute;
@@ -46,7 +46,7 @@
   height: 230px;
   right: 0px;
   bottom: 0;
-  background: url(/images/invest/2.svg) no-repeat;
+  background: url(../images/2.svg) no-repeat;
 }
 .main_cart3:before {
   position: absolute;
@@ -55,7 +55,7 @@
   height: 230px;
   right: 0px;
   bottom: 0;
-  background: url(/images/invest/3.svg) no-repeat;
+  background: url(../images/3.svg) no-repeat;
 }
 
 .main-cart__title {
@@ -76,7 +76,7 @@
   height: 55px;
   top: 0;
   right: -190px;
-  background: url(/images/invest/Icon_info.svg) no-repeat;
+  background: url(../images/Icon_info.svg) no-repeat;
 }
 .main-cart_title2:after {
   position: absolute;
@@ -85,7 +85,7 @@
   height: 55px;
   top: 0;
   right: -190px;
-  background: url(/images/invest/icon_graphic.png) no-repeat;
+  background: url(../images/icon_graphic.png) no-repeat;
 }
 .main-cart_title3:after {
   position: absolute;
@@ -94,7 +94,7 @@
   height: 55px;
   top: 0;
   right: -190px;
-  background: url(/images/invest/Icon_report.png) no-repeat;
+  background: url(../images/Icon_report.png) no-repeat;
 }
 
 .main-textblock1__text,

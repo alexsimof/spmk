@@ -3,7 +3,7 @@
   margin-bottom: 100px;
 }
 .main-bg {
-  background: url(/images/shop/BG_img.png);
+  background: url(../images/BG_img.png);
   background-size: cover;
   padding: 380px 100px 70px 100px;
 }

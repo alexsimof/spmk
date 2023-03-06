@@ -116,7 +116,7 @@
   height: 650px;
   right: 0;
   top: -260px;
-  background: url(/images/main/Shape_Line2.png) no-repeat;
+  background: url(../images/Shape_Line2.png) no-repeat;
 }
 
 @media screen and (max-width: 1440px) {

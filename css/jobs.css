@@ -12,7 +12,7 @@
   height: 40px;
   left: 80px;
   bottom: 0;
-  background: url(/images/main/Scroll.png) no-repeat;
+  background: url(../images/Scroll.png) no-repeat;
 }
 
 .main-texts {
@@ -253,7 +253,7 @@
   height: 23px;
   right: 0;
   top: 0;
-  background: url(/images/jobs/Clip.png);
+  background: url(../images/Clip.png);
 }
 
 /* inputfile */
@@ -283,7 +283,7 @@
   display: block;
   width: 20px;
   height: 23px;
-  background: url(/images/jobs/Clip.png) no-repeat;
+  background: url(../images/Clip.png) no-repeat;
 }
 
 /* .reguest-addfile .label i,

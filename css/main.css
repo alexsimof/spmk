@@ -13,7 +13,7 @@
   height: 40px;
   left: 80px;
   bottom: 0;
-  background: url(/images/main/Scroll.png) no-repeat;
+  background: url(../images/Scroll.png) no-repeat;
 }
 .titleblock {
   width: 50%;
