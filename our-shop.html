@@ -1,79 +1,158 @@
 
-<!--#include file="header-shop.html"-->
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="main">
-  <div class="main-wrapper">
-    <div class="main-bg">
-      <p class="main-title">Продукцию в Московском регионе можно приобрести:</p>
-      <div class="main-shopmenu">
-        <div class="main-nav">
-          <p class="main-nav__txt">Выберите сеть</p>
-          <a href="" class="main-nav__link"></a>
-          <div class="main-nav-menu">
-            <a href="" class="main-nav-menu__link">Сыр да Масло</a>
-            <a href="" class="main-nav-menu__link">Есть все</a>
-            <a href="" class="main-nav-menu__link">Другие</a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OUR-SHOP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main/reset.css">
+  <link rel="stylesheet" href="/css/main/header.css">
+  <link rel="stylesheet" href="/css/our-shop/shop.css">
+  <link rel="stylesheet" href="/css/main/to-top.css">
+
+  <link rel="stylesheet" href="/css/main/footer.css">
+
+
+
+  <script src="/js/shop-menu.js" defer></script>
+  <script src="/js/backToTop.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header_wrapper wrapper">
+        <div class="logo">
+          <a href="/" class="logo__link">
+            <img src="/images/header/Logo.png" alt="">
+          </a>
+        </div>
+        <div class="contacts header_contacts">
+          <div class="phone contacts_phone">
+            <img src="/images/header/phone.png" alt="">
+            <span class="phone__number">8 496 552-21-21</span>
+          </div>
+          <div class="mail contacts_mail">
+            <img src="/images/header/mail.png" alt="">
+            <span class="mail__text">info@spmk.ru</span>
           </div>
         </div>
-        <button class="main__button1" type="button">На карте</button>
-        <span class="main__line"></span>
-        <button class="main__button2" type="button">Списком</button>
-      </div>
-    </div>
-    <img src="/images/shop/MAP.png" alt="">
-  </div>
-</div>
-<div class="adress">
-  <div class="adress-wrap">
-    <div class="adress-cart">
-      <div class="adress-blcok1">
-        <p class="adress-sity">г. Александров</p>
-      </div>
-      <div class="adress-blcok2">
-        <div class="adress-tab">
-          <p class="adress-str">ул. Михалковская, д.12ул.</p>
-          <p class="adress-str">Бульвар Маршала Рокоссовского, д.31</p>
+        <div class="nav header_nav">
+          <a href="http://site-spmk/investors.html" class="nav__link">Инвесторам</a>
+          <a href="http://site-spmk/production.html" class="nav__link">Производство</a>
+          <a href="http://site-spmk/our-shop.html" class="nav__link nav__activ">Наши магазины</a>
+          <a href="http://site-spmk/jobs.html" class="nav__link">Вакансии</a>
+          <a href="http://site-spmk/contacts.html" class="nav__link">Контакты</a>
         </div>
       </div>
     </div>
-    <div class="adress-cart">
-      <div class="adress-blcok1">
-        <p class="adress-sity">г. Балашиха</p>
-      </div>
-      <div class="adress-blcok2">
-        <div class="adress-tab">
-          <p class="adress-str">ул.Фрунзе, д.2 стр. 3</p>
-          <p class="adress-str">ул. Тихонравова, д. 34/2</p>
-          <p class="adress-str">ул. Лесная, д.14</p>
-        </div>
-        <div class="adress-tab">
-          <p class="adress-str">ул. Бурково, 37 корпус 1</p>
-          <p class="adress-str">ул. Исаева, д.1</p>
-          <p class="adress-str">ул. Горького, д.14Г</p>
-        </div>
-      </div>
-    </div>
-    <div class="adress-cart">
-      <div class="adress-blcok1">
-        <p class="adress-sity">г. Дубна</p>
-      </div>
-      <div class="adress-blcok2">
-        <div class="adress-tab">
-          <p class="adress-str">ул.Фрунзе, д.2 стр. 3</p>
-          <p class="adress-str">ул. Тихонравова, д. 34/2</p>
-          <p class="adress-str">ул. Лесная, д.14</p>
-        </div>
-        <div class="adress-tab">
-          <p class="adress-str">ул. Бурково, 37 корпус 1</p>
-          <p class="adress-str">ул. Исаева, д.1</p>
-          <p class="adress-str">ул. Горького, д.14Г</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="back-to-top">
-  <a href="#" class="back__top back-to-top_hide"></a>
-</div>
+  </header>
 
-<!--#include file="footer.html"-->
+  <div class="main">
+    <div class="main-wrapper">
+      <div class="main-bg">
+        <p class="main-title">Продукцию в Московском регионе можно приобрести:</p>
+        <div class="main-shopmenu">
+          <div class="main-nav">
+            <p class="main-nav__txt">Выберите сеть</p>
+            <a href="" class="main-nav__link"></a>
+            <div class="main-nav-menu">
+              <a href="" class="main-nav-menu__link">Сыр да Масло</a>
+              <a href="" class="main-nav-menu__link">Есть все</a>
+              <a href="" class="main-nav-menu__link">Другие</a>
+            </div>
+          </div>
+          <button class="main__button1" type="button">На карте</button>
+          <span class="main__line"></span>
+          <button class="main__button2" type="button">Списком</button>
+        </div>
+      </div>
+      <img src="/images/shop/MAP.png" alt="">
+    </div>
+  </div>
+  <div class="adress">
+    <div class="adress-wrap">
+      <div class="adress-cart">
+        <div class="adress-blcok1">
+          <p class="adress-sity">г. Александров</p>
+        </div>
+        <div class="adress-blcok2">
+          <div class="adress-tab">
+            <p class="adress-str">ул. Михалковская, д.12ул.</p>
+            <p class="adress-str">Бульвар Маршала Рокоссовского, д.31</p>
+          </div>
+        </div>
+      </div>
+      <div class="adress-cart">
+        <div class="adress-blcok1">
+          <p class="adress-sity">г. Балашиха</p>
+        </div>
+        <div class="adress-blcok2">
+          <div class="adress-tab">
+            <p class="adress-str">ул.Фрунзе, д.2 стр. 3</p>
+            <p class="adress-str">ул. Тихонравова, д. 34/2</p>
+            <p class="adress-str">ул. Лесная, д.14</p>
+          </div>
+          <div class="adress-tab">
+            <p class="adress-str">ул. Бурково, 37 корпус 1</p>
+            <p class="adress-str">ул. Исаева, д.1</p>
+            <p class="adress-str">ул. Горького, д.14Г</p>
+          </div>
+        </div>
+      </div>
+      <div class="adress-cart">
+        <div class="adress-blcok1">
+          <p class="adress-sity">г. Дубна</p>
+        </div>
+        <div class="adress-blcok2">
+          <div class="adress-tab">
+            <p class="adress-str">ул.Фрунзе, д.2 стр. 3</p>
+            <p class="adress-str">ул. Тихонравова, д. 34/2</p>
+            <p class="adress-str">ул. Лесная, д.14</p>
+          </div>
+          <div class="adress-tab">
+            <p class="adress-str">ул. Бурково, 37 корпус 1</p>
+            <p class="adress-str">ул. Исаева, д.1</p>
+            <p class="adress-str">ул. Горького, д.14Г</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="back-to-top">
+    <a href="#" class="back__top back-to-top_hide"></a>
+  </div>
+  
+  <div class="footer">
+    <div class="container">
+      <div class="footer-wrap">
+        <div class="logo">
+          <a href="#" class="logo__link">
+            <img src="/images/footer/footerLogo.png" alt="">
+          </a>
+        </div>
+        <div class="contacts footer_contacts">
+          <div class="phone">
+            <img src="/images/header/phone.png" alt="">
+            <span class="phone__number">8 496 552-21-21</span>
+          </div>
+          <div class="mail">
+            <img src="/images/header/mail.png" alt="">
+            <span class="mail__text">info@spmk.ru</span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p class="copyright__text">© 1997-2023 АО "СПМК"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
