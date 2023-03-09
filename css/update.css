@@ -1,16 +1,18 @@
 
-
+.update-wrap_padding-top{
+  padding-top: 200px;
+}
 .update-txtblock {
   display: flex;
   align-items: flex-end;
-  padding: 200px 150px 0px 150px;
 }
-.update-block1 {
+.update_block1 {
   width: 45%;
+  margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 25px;
 }
-.update-block2 {
+.update_block2 {
   width: 55%;
 }
 .update__text1 {
@@ -50,7 +52,7 @@
 }
 .update_stock {
   margin-top: 140px;
-  margin-right: 350px;
+  margin-right: 240px;
 }
 .update2-stock {
   display: flex;
@@ -59,7 +61,7 @@
 }
 .update2_stock {
   margin-top: 150px;
-  margin-left: 160px;
+  margin-left: 60px;
   margin-bottom: 200px;
 }
 .update-wrapper {
@@ -72,25 +74,15 @@
   margin-right: 160px;
 }
 .update-texts {
-  margin-left: 122px;
+  margin-left: 60px;
+  padding-left: 60px;
+  border-left: 3px solid #D1232A
 }
 .update2-images,
 .update-images {
   position: relative;
 }
-.update2-images:after,
-.update-images:after {
-  position: absolute;
-  content: '';
-  width: 2px;
-  height: 245px;
-  right: -60px;
-  top: 8px;
-  background: #D1232A;
-}
-.update2-images:after {
-  height: 290px;
-}
+
 .update2-images:before,
 .update-images:before {
   position: absolute;
@@ -119,6 +111,8 @@
   font-size: 24px;
   line-height: 110%;
   color: #D1232A;
+  border-bottom: 1.05px solid #C9C7C7;
+  padding-bottom: 15px;
   margin-bottom: 15px;
 }
 .update__txt3 {

@@ -39,7 +39,8 @@
   border-bottom: 2px solid #9F575E;
   padding-bottom: 8px;
 }
-.main-nav__txt {
+.main-nav__link {
+  display: block;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -48,18 +49,16 @@
   color: #FFFFFF;
 }
 
-.main-nav__link {
+.main-nav__link:after {
   position: absolute;
-  display: block;
   content: '';
   width: 10px;
   height: 10px;
-  right: 0;
+  right: 6px;
   top: 2px;
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   transform: rotate(-45deg);
-  margin: 5px;
 }
 .main-nav-menu {
   display: none;

@@ -36,11 +36,11 @@
         <div class="contacts header_contacts">
           <div class="phone contacts_phone">
             <img src="images/phone.png" alt="">
-            <span class="phone__number">8 496 552-21-21</span>
+            <a href="tel:8 496 552-21-21" class="phone__number">8 496 552-21-21</a>
           </div>
           <div class="mail contacts_mail">
             <img src="images/mail.png" alt="">
-            <span class="mail__text">info@spmk.ru</span>
+            <a href="mailto:info@spmk.ru" class="mail__text">info@spmk.ru</a>
           </div>
         </div>
         <div class="nav header_nav">
@@ -61,11 +61,11 @@
           <div class="nav-contacts">
             <div class="phone mobile-phone">
               <img src="images/phone.png" alt="">
-              <span class="mobile__number">8 496 552-21-21</span>
+              <a href="tel:8 496 552-21-21" class="phone__number">8 496 552-21-21</a>
             </div>
             <div class="mail mobile-mail">
               <img src="images/mail.png" alt="">
-              <span class="mobile__mailtext">info@spmk.ru</span>
+              <a href="mailto:info@spmk.ru" class="mail__text">info@spmk.ru</a>
             </div>
           </div>
         </div>
@@ -74,68 +74,84 @@
   </header>
 
   <div class="quality">
-    <div class="quality-wrap">
-      <p class="quality__text1">Качество</p>
-      <p class="quality__text2">Люди</p>
-      <p class="quality__text3">Традиции</p>
-      <p class="quality__text4">Контакты</p>
+    <div class="page-container">
+      <div class="quality-wrap">
+        <p class="quality__text">Качество</p>
+        <p class="quality__text quality__text_margin-left">Люди</p>
+        <p class="quality__text quality__text_margin-left">Традиции</p>
+        <p class="quality__text quality__text_margin-left quality__text_color">Контакты</p>
+      </div>
     </div>
   </div>
+
   <div class="maps">
     <div class="maps-wrap">
-      <p class="maps__title">АО «Сергиево-Посадский мясокомбинат»</p>
-      <p class="maps__text2">141364, Московская область, г. Сергиев Посад,<br> д. Наугольное, д. 55</p>
-      
-      <div class="contacts contacts_page">
-        <div class="phone">
-          <img src="images/phone.png" alt="">
-          <span class="phone__number">+7 496 552-21-21 | +7 496 542-20-21</span>
+      <div class="maps-textblock">
+        <p class="maps__title">АО «Сергиево-Посадский мясокомбинат»</p>
+        <address class="maps__text2">141364, Московская область, г. Сергиев Посад,<br> д. Наугольное, д. 55</address>
+        
+        <div class="contacts contacts_page">
+          <div class="phone">
+            <img src="images/phone.png" alt="">
+            <a href="tel:8 496 552-21-21" class="phone__number">+7 496 552-21-21   |   +7 496 542-20-21</a>
+          </div>
+          <div class="mail">
+            <img src="images/mail.png" alt="">
+            <a href="mailto:info@spmk.ru" class="mail__text">info@spmk.ru</a>
+          </div>
         </div>
-        <div class="mail">
-          <img src="images/mail.png" alt="">
-          <span class="mail__text">info@spmk.ru</span>
+
+        <p class="maps__title2">Отдел кадров:</p>
+
+        <div class="contacts">
+          <div class="phone">
+            <img src="images/phone.png" alt="">
+            <a href="tel:8 496 552-20-21" class="phone__number">8 496 552-20-21</a>
+          </div>
+          <div class="mail">
+            <img src="images/mail.png" alt="">
+            <a href="mailto:info@spmk.ru" class="mail__text">info@spmk.ru</a>
+          </div>
         </div>
       </div>
-
-      <p class="maps__title2">Отдел кадров:</p>
-
-      <div class="contacts">
-        <div class="phone">
-          <img src="images/phone.png" alt="">
-          <span class="phone__number">+7 496 552-20-21</span>
-        </div>
-        <div class="mail">
-          <img src="images/mail.png" alt="">
-          <span class="mail__text">info@spmk.ru</span>
-        </div>
+      <div class="maps-block">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d960877.5333486925!2d37.15503144083566!3d55.98746720230009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b4c6c255555555%3A0x8c0537bfa3ceab5!2z0KHQtdGA0LPQuNC10LLQvi3Qn9C-0YHQsNC00YHQutC40Lkg0LzRj9GB0L7QutC-0LzQsdC40L3QsNGC!5e0!3m2!1sru!2s!4v1678361371881!5m2!1sru!2s"
+          width="1060" height="830" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
-      <img class="maps__img" src="images/MAP1.png" alt="">
+      <!-- <img class="maps__img" src="images/MAP1.png" alt=""> -->
     </div>
   </div>
 
-  <div class="reguest reguest_border">
-    <div class="reguest-wrap reguest_wrap">
-      <div class="reguest-form">
-        <p class="reguest__title">Оставить заявку</p>
-        <div class="reguest-inputs">
-          <input class="reguest__fio" type="text" required placeholder="ФИО*">
-          <input class="reguest__phone" type="text" required placeholder="Номер телефона*">
-        </div>
-        <input class="reguest__email" type="text" required placeholder="E-mail*">
-        <textarea class="reguest__textera" name="comment" placeholder="Оставьте ваш комментарий"></textarea>
-        <div class="reguest-checkblock">
-          <label class="reguest-checkbox checks">
-            <input type="checkbox" />
-            <div class="reguest-checkbox__checkmark"></div>
-            <div class="reguest-checkbox__body">Соглашаюсь на обработку персональных данных</div>
-          </label>
-          <div class="reguest-sendblock">
-            <p class="reguest__send">Отправить</p>
-            <a href="#" class="reguest__link"></a>
+  <div class="reguest reguest_border reguest_contact">
+    <div class="page-container">
+      <div class="reguest-wrap reguest_wrap">
+        <form class="reguest-form" action="mailto:kadry@spmk.ru" enctype="text/plain">
+          <p class="reguest__title">Оставить заявку</p>
+          <div class="reguest-inputs">
+            <input class="reguest__fio" type="text" required placeholder="ФИО*">
+            <input class="reguest__phone" type="text" placeholder="Номер телефона">
           </div>
-        </div>
-        <p class="reguest__text2">Высылайте свое резюме на электронный адрес kadry@spmk.ru, свяжитесь с нами по телефону
-          +7 496 552-20-21 или воспользуйтесь формой обратной связи.</p>
+          <input class="reguest__email" type="text" required placeholder="E-mail*">
+          <textarea class="reguest__textera" name="comment" placeholder="Оставьте ваш комментарий"></textarea>
+          <div class="reguest-checkblock">
+            <label class="reguest-checkbox checks">
+              <input type="checkbox" />
+              <div class="reguest-checkbox__checkmark"></div>
+              <div class="reguest-checkbox__body">Соглашаюсь на обработку персональных данных</div>
+            </label>
+            <div class="reguest-sendblock">
+              <button type="submit" class="reguest__button">Отправить
+                <span class="reguest__btn"></span>
+              </button>
+            </div>
+          </div>
+          <p class="reguest__text2">Высылайте свое резюме на электронный адрес kadry@spmk.ru, свяжитесь с нами по телефону
+            +7 496 552-20-21 или воспользуйтесь формой обратной связи.
+          </p>
+        </form>
       </div>
     </div>
   </div>
@@ -154,15 +170,15 @@
         <div class="contacts footer_contacts">
           <div class="phone">
             <img src="images/phone.png" alt="">
-            <span class="phone__number">8 496 552-21-21</span>
+            <a href="tel:8 496 552-21-21" class="phone__number">8 496 552-21-21</a>
           </div>
           <div class="mail">
             <img src="images/mail.png" alt="">
-            <span class="mail__text">info@spmk.ru</span>
+            <a href="mailto:info@spmk.ru" class="mail__text">info@spmk.ru</a>
           </div>
         </div>
         <div class="copyright">
-          <p class="copyright__text">© 1997-2023 АО "СПМК"</p>
+          <a href="mailto:info@spmk.ru" class="mail__text">info@spmk.ru</a>
         </div>
       </div>
     </div>

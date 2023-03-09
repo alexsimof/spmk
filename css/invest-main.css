@@ -67,7 +67,7 @@
   font-size: 32px;
   line-height: 110%;
   color: #303030;
-  margin-bottom: 110px;
+  margin-bottom: 100px;
 }
 .main-cart_title1:after {
   position: absolute;
@@ -75,7 +75,7 @@
   width: 55px;
   height: 55px;
   top: 0;
-  right: -190px;
+  right: -170px;
   background: url(../images/Icon_info.svg) no-repeat;
 }
 .main-cart_title2:after {
@@ -84,7 +84,7 @@
   width: 55px;
   height: 55px;
   top: 0;
-  right: -190px;
+  right: -170px;
   background: url(../images/icon_graphic.png) no-repeat;
 }
 .main-cart_title3:after {
@@ -93,7 +93,7 @@
   width: 55px;
   height: 55px;
   top: 0;
-  right: -190px;
+  right: -170px;
   background: url(../images/Icon_report.png) no-repeat;
 }
 
@@ -104,7 +104,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 110%;
+  line-height: 120%;
   color: #404040;
 }
 .main-textblock_margin {
@@ -114,14 +114,7 @@
 .main-textblock2__text1:not(:last-child) {
   margin-bottom: 15px;
 }
-.main-textblock2__text1 {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 110%;
-  color: #404040;
-}
+
 .main-textblock2 {
   position: relative;
   display: flex;
@@ -142,17 +135,31 @@
 }
 .main-textblock3__link1,
 .main-textblock3__link2 {
-  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  color: #404040;
+  border-top: 1px solid #C9C7C7;
+  padding-top: 20px;
+}
+.main-textblock3__link1 {
+  margin-bottom: 50px;
+}
+.main-textblock3__btn {
+  position: relative;
   display: block;
   width: 20px;
   height: 20px;
-  right: 0;
-  top: 19px;
   border: 1px solid #464646;
   border-radius: 50%;
 }
-.main-textblock3__link1:before,
-.main-textblock3__link2:before {
+.main-textblock3__btn:before,
+.main-textblock3__btn:before {
   position: absolute;
   content: '';
   width: 10px;
@@ -161,8 +168,8 @@
   top: 8px;
   background: #464646;
 }
-.main-textblock3__link1:after,
-.main-textblock3__link2:after {
+.main-textblock3__btn:after,
+.main-textblock3__btn:after {
   position: absolute;
   content: '';
   width: 5px;
@@ -173,8 +180,8 @@
   border-bottom: 1px solid #464646;
   transform: rotate(-45deg);
 }
-.main-textblock3__link1:hover:before,
-.main-textblock3__link2:hover:before {
+.main-textblock3__link1:hover>.main-textblock3__btn:before,
+.main-textblock3__link2:hover>.main-textblock3__btn:before {
   width: 15px;
   left: -6px;
   transition: 0.2s;

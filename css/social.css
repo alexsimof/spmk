@@ -6,11 +6,12 @@
 }
 .social-wrapper {
   display: flex;
+  justify-content: space-between;
   overflow: hidden;
 }
 .social-cart {
   position: relative;
-  width: 33%;
+  width: 31%;
   padding-right: 100px;
   overflow: hidden;
 }

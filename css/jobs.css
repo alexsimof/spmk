@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding: 0 100px;
+  padding: 0
 }
 .main-wrapper:after {
   position: absolute;
@@ -69,7 +69,6 @@
 
 
 .vacancies-wrap {
-  padding: 0 100px;
   margin-top: 120px;
 }
 
@@ -108,7 +107,18 @@
   display: flex;
   align-items: center;
 }
-.vacancies__more {
+.vacancies__btn {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #D1232A;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.vacancies__link {
+  display: flex;
+  align-items: center;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -116,17 +126,8 @@
   line-height: 120%;
   color: #404040;
 }
-.vacancies__link {
-  position: relative;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #D1232A;
-  border-radius: 50%;
-  margin-left: 20px;
-}
 
-.vacancies__link:before {
+.vacancies__btn:before {
   position: absolute;
   content: '';
   width: 10px;
@@ -135,7 +136,7 @@
   left: 0;
   background: #D1232A;
 }
-.vacancies__link:after {
+.vacancies__btn:after {
   position: absolute;
   content: '';
   width: 5px;
@@ -146,11 +147,12 @@
   border-bottom: 1px solid #D1232A;
   transform: rotate(-45deg);
 }
-.vacancies__link:hover:before {
+.vacancies__link:hover>.vacancies__btn:before {
   width: 20px;
   left: -8px;
   transition: 0.2s;
 }
+
 .vacancies__graf {
   font-family: 'Montserrat';
   font-style: normal;
@@ -172,6 +174,10 @@
   display: inline-block;
   width: 500px;
 }
+
+/*            reguest-wrap      */
+
+
 
 .reguest-wrap {
   background: radial-gradient(52.5% 104.08% at 5.66% 6.25%, #FAFBFC 0%, #EDF3F5 100%);
@@ -286,19 +292,7 @@
   background: url(../images/Clip.png) no-repeat;
 }
 
-/* .reguest-addfile .label i,
-.reguest-addfile .label .title {
-  color: grey;
-  transition: 200ms color
-}
 
-.reguest-addfile .label:hover {
-  border: 2px solid #000
-}
-.reguest-addfile .label:hover i,
-.reguest-addfile .label:hover .title {
-  color: #000
-} */
 
 .title {
   font-family: 'Montserrat';
@@ -422,30 +416,28 @@
   line-height: 120%;
   color: #404040;
 }
-.reguest-sendblock {
-  width: 175px;
+
+.reguest__button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-.reguest__send {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 120%;
   color: #404040;
-
 }
-.reguest__link {
+
+.reguest__btn {
   position: relative;
   display: block;
   width: 60px;
   height: 60px;
   background: #d1232a;
-  border-radius: 50%
+  border-radius: 50%;
+  margin-left: 20px;
 }
-.reguest__link:before {
+.reguest__btn:before {
   position: absolute;
   content: '';
   width: 30px;
@@ -454,7 +446,7 @@
   top: 28px;
   background: #fff;
 }
-.reguest__link:after {
+.reguest__btn:after {
   position: absolute;
   content: '';
   width: 8px;
@@ -465,19 +457,21 @@
   border-bottom: 2px solid #fff;
   transform: rotate(-45deg);
 }
-.reguest__link:hover {
-  width: 66px;
-  height: 66px;
+
+.reguest__button:hover>.reguest__btn {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
   transition: 0.2s;
 }
-.reguest__link:hover:before {
-  top: 32px;
-  width: 50px;
+.reguest__button:hover>.reguest__btn:before {
+  width: 45px;
+  top: 34px;
   transition: 0.2s;
 }
-.reguest__link:hover:after {
-  top: 29px;
-  left: 43px;
+.reguest__button:hover>.reguest__btn:after {
+  top: 31px;
+  left: 38px;
   transition: 0.2s;
 }
 

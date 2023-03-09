@@ -62,6 +62,7 @@
 }
 .director-images {
   position: relative;
+  margin-right: 60px;
 }
 .director-images:after {
   position: absolute;

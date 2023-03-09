@@ -2,7 +2,8 @@
 .works-wrap {
   position: relative;
   background: #872D36;
-  padding: 120px 0px 115px 160px;
+  padding: 120px 0px 115px 155px;
+  margin-left: 100px;
 }
 
 .works-txt1 {

@@ -1,7 +1,8 @@
 
-.victory_wrap {
+.victory_ind {
   margin-top: 250px;
   margin-bottom: 90px;
+  margin-right: 100px;
   padding-top: 125px;
   padding-left: 152px;
 
@@ -29,7 +30,7 @@
   position: relative;
   z-index: 1;
 }
-.victory__text1 {
+.victory-content_text {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -38,30 +39,41 @@
   letter-spacing: 0.05em;
   color: rgba(255, 255, 255, 0.2);
 }
-.victory__text2 {
-  font-family: 'Montserrat';
-  font-style: normal;
+.victory-content_ind {
+  margin-bottom: 60px;
+}
+.victory-content_margin-right {
   font-weight: 600;
   font-size: 154px;
   line-height: 100%;
-  letter-spacing: 0.05em;
   color: rgba(255, 255, 255, 0.2);
   text-align: right;
   margin-right: 112px;
+  margin-top: -50px;
 }
-.victory__text3 {
-  max-width: 800px;
-  font-family: 'Montserrat';
-  font-style: normal;
+
+.victory-content_margin {
+  max-width: 870px;
   font-weight: 700;
   font-size: 48px;
-  line-height: 110%;
   color: #FFFFFF;
-  margin: 0 auto;
+  margin-left: 375px;
   margin-top: 83px;
   margin-bottom: 37px;
+  padding-right: 10px;
 }
-.victory__text4 {
+.victory-content_text4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 95.2577px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #D1232A;
+  margin-right: 70px;
+}
+.victory-content_esg {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -74,13 +86,13 @@
 }
 .victory__text5 {
   position: relative;
-  max-width: 900px;
+  max-width: 910px;
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 600;
   font-size: 18px;
   line-height: 140%;
   color: #FFFFFF;
+  padding-right: 10px;
 }
 .victory__text5:before {
   position: absolute;
@@ -91,22 +103,43 @@
   left: -40px;
   background: #D1232A;
 }
+
 .victory-textblock {
-  height: 275px;
   display: flex;
-  margin-left: 375px;
 }
-.victory_textblock {
+.victory-textblock_ind {
   position: relative;
-  margin-right: 112px;
+  height: 285px;
+  margin-left: 370px;
   z-index: 1;
 }
+
+/*  */
+@media screen and (max-width: 1840px) {
+  .victory-content_margin-right {
+    margin-right: 15px;
+  }
+
+}
+
+
 @media screen and (max-width: 1750px) {
   .victory-textblock {
     height: 410px;
   }
   .victory__text3 {
     margin: 83px 0 37px auto;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .victory-content_margin {
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .victory_ind {
+    padding-left: 20px;
   }
 }
 

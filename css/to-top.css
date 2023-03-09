@@ -33,13 +33,25 @@
   top: 29px;
   background: #404040;
 }
+.back__top:hover {
+  background: #D1DEE3;
+}
 .back-to-top_hide {
   display: none;
 }
 
+.back__top:hover:before {
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.back__top:hover:after {
+  background: #fff;
+}
+
 @media screen and (max-width: 1440px) {
   .back__top {
-    right: 20px;
+    right: 15px;
   }
 
 }
