@@ -8,7 +8,7 @@
   margin-bottom: 60px;
 }
 .director_quoteblock {
-  width: 60%;
+  width: 50%;
   margin-bottom: 30px;
 }
 .director-quote {
@@ -63,6 +63,7 @@
 .director-images {
   position: relative;
   margin-right: 60px;
+  overflow: hidden;
 }
 .director-images:after {
   position: absolute;
@@ -75,7 +76,6 @@
 }
 .director__img {
   width: 500px;
-  height: 700px;
 }
 .director__btn {
   position: absolute;
@@ -127,4 +127,75 @@
   .director__title:after {
     width: 570px;
   }
+  .director-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .director_titleblock {
+    margin-left: 100px;
+  }
+  .director_decor:before {
+    top: -200px;
+  }
+  .director-images {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .director-wrapper {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .director-images {
+    order: -1;
+    margin-bottom: 60px;
+  }
+  .director-quote {
+    display: flex;
+    max-width: 100%;
+  }
+  .director_quoteblock {
+    width: 100%;
+  }
+  .director-text {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-top: 56px;
+  }
+  .director_titleblock {
+    margin-left: 170px;
+  }
+  .director__title:after {
+    width: 100%;
+  }
+  .director__btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .director_decor:before {
+    top: -260px;
+  }
+  .director-quote__img {
+    width: 45px;
+  }
+  .director-text {
+    margin-top: 15px;
+  }
+  .director_titleblock {
+    margin-left: 55px;
+    margin-top: 43px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .director_decor:before {
+    background: url(../images/decor2-m.svg) no-repeat;
+    width: 170px;
+    height: 300px;
+    top: -100px;
+  }
+
 }

@@ -22,6 +22,11 @@
 
   <script src="js/shop-menu.js" defer></script>
   <script src="js/backToTop.js" defer></script>
+
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=0b0c3004-9d79-44b0-b6cf-0abb3b9f3a11&lang=ru_RU"
+    type="text/javascript"></script>
+  <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+  <script src="js/map.js" defer></script>
 </head>
 
 <body>
@@ -93,11 +98,7 @@
             <button class="main__button2" type="button">Списком</button>
           </div>
         </div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d287391.1583122382!2d37.6725775700664!3d55.75427346937208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0YHQv9C80Lo!5e0!3m2!1sru!2s!4v1678298896621!5m2!1sru!2s"
-          width="1920" height="828" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+        <div class="map" id="map"></div>
       </div>
     </div>
   </main>
@@ -154,9 +155,7 @@
     </div>
   </div>
   <div class="back-to-top">
-    <div class="page-container">
       <a href="#" class="back__top back-to-top_hide"></a>
-    </div>
   </div>
   
   <div class="footer">

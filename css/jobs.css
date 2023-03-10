@@ -1,4 +1,9 @@
 
+.main-container {
+  max-width: 1720px;
+  width: 100%;
+  margin: auto;
+}
 .main-wrapper {
   position: relative;
   display: flex;
@@ -10,14 +15,23 @@
   content: '';
   width: 40px;
   height: 40px;
-  left: 80px;
+  left: -20px;
   bottom: 0;
   background: url(../images/Scroll.png) no-repeat;
 }
+.main-wrapper:before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 720px;
+  left: 0;
+  bottom: 0;
+  background: #D9D9D9;
 
+}
 .main-texts {
   width: 50%;
-  padding-left: 95px;
+  padding-left: 155px;
 }
 
 .main__title {

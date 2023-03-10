@@ -17,3 +17,25 @@
   line-height: 22px;
   color: #404040;
 }
+.copyright_mob {
+  display: none;
+
+}
+
+@media screen and (max-width: 576px) {
+  .copyright {
+    display: none;
+  }
+  .copyright_mob {
+    display: block;
+  }
+  .footer_contacts {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: right;
+  }
+  .footer-mail,
+  .footer-phone {
+    justify-content: flex-end;
+  }
+}

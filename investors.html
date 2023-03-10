@@ -20,6 +20,7 @@
 
 
   <script src="js/backToTop.js" defer></script>
+  <script src="js/header-menu.js" defer></script>
 </head>
 
 <body>
@@ -67,6 +68,9 @@
             </div>
           </div>
         </div>
+        <a class="menu-toggle" href="#">
+          <span class="menu__toggle"></span>
+        </a>
       </div>
     </div>
   </header>
@@ -91,19 +95,37 @@
         <div class="main-cart main_cart2">
           <p class="main-cart__title main-cart_title2">Общая информация</p>
           <div class="main-textblock2">
-            <div class="main-textblock-1">
-              <p class="main-textblock2__text">Выручка за 2021 г.</p>
-              <p class="main-textblock2__text">Чистая прибыль за 2021 г.</p>
-              <p class="main-textblock2__text">EBITDA за 2021 г.</p>
-              <p class="main-textblock2__text">Основные средства за 2021 г.</p>
-              <p class="main-textblock2__text">Чистые активы за 2021 г.</p>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td class="table-l">Выручка за 2021 г.</td>
+                  <td class="table-r"><strong>2 927 812 000 руб.</strong></td>
+                </tr>
+                <tr>
+                  <td class="table-l">Чистая прибыль за 2021 г.</td>
+                  <td class="table-r"><strong>50 083 000 руб.</strong></td>
+                </tr>
+                <tr>
+                  <td class="table-l">EBITDA за 2021 г.</td>
+                  <td class="table-r"><strong>154 878 000 руб.</strong></td>
+                </tr>
+                <tr>
+                  <td class="table-l">Основные средства за 2021 г.</td>
+                  <td class="table-r"><strong>381 193 000 руб.</strong></td>
+                </tr>
+                <tr>
+                  <td class="table-l">Чистые активы за 2021 г.</td>
+                  <td class="table-r"><strong>252 164 000 руб.</strong></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="main-textblock-1 main-textblock_w1">
+              <p class="main-textblock2__text"></p>
+
             </div>
             <div class="main-textblock-2">
-              <p class="main-textblock2__text"><strong>2 927 812 000 руб.</strong></p>
-              <p class="main-textblock2__text"><strong>50 083 000 руб.</strong></p>
-              <p class="main-textblock2__text"><strong>154 878 000 руб.</strong></p>
-              <p class="main-textblock2__text"><strong>381 193 000 руб.</strong></p>
-              <p class="main-textblock2__text"><strong>252 164 000 руб.</strong></p>
+              <p class="main-textblock2__text"></p>
+
             </div>
           </div>
         </div>
@@ -128,7 +150,7 @@
       <div class="update-wrap update-wrap_padding-top">
         <div class="update-txtblock">
           <div class="update-block update_block1">
-            <p class="update__text1">Последние</p> ..стоп!!!
+            <p class="update__text1">Последние</p>
             <p class="update__text2">3 года</p>
           </div>
           <div class="update-block update_block2">
@@ -166,9 +188,7 @@
   </div>
 
   <div class="back-to-top">
-    <div class="container">
-      <a href="#" class="back__top back-to-top_hide"></a>
-    </div>
+    <a href="#" class="back__top back-to-top_hide"></a>
   </div>
 
   <footer class="footer">
