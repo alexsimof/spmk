@@ -20,7 +20,9 @@
 
 
 
+  <script src="/js/common.js" defer></script>
   <script src="/js/backToTop.js" defer></script>
+  <script src="js/header-menu.js" defer></script>
 </head>
 
 <body>
@@ -68,6 +70,9 @@
             </div>
           </div>
         </div>
+        <a class="menu-toggle" href="#">
+          <span class="menu__toggle"></span>
+        </a>
       </div>
     </div>
   </header>
@@ -92,7 +97,6 @@
           </div>
         </div>
         <div class="main-images">
-          <span class="main__box"></span>
           <img class="main__img" src="images/main-IMG.png" alt="">
         </div>
       </div>
@@ -102,32 +106,32 @@
   <div class="vacancies">
     <div class="container">
       <div class="vacancies-wrap">
+
         <div class="vacancies-cart">
-          <div class="vacancies-block">
-            <p class="vacancies__date">29.06.2022</p>
-            <p class="vacancies__name">Расфасовщик мясопродуктов</p>
-            <div class="vacancies-moreblock">
-              <a href="jobs2.html" class="vacancies__link">Подробнее
-                <span class="vacancies__btn"></span>
-              </a>
-            </div>
+
+          <p class="vacancies__date">29.06.2022</p>
+          <p class="vacancies__name">Расфасовщик мясопродуктов</p>
+          <div class="vacancies-moreblock">
+            <a href="jobs2.html" class="vacancies__link">Подробнее
+              <span class="vacancies__btn"></span>
+            </a>
           </div>
-          <div class="vacancies-block">
+
+          <div class="vacancies-block2">
             <span class="vacancies__graf">График работы 2/2</span>
             <span class="vacancies__price">от 35 000 руб</span>
           </div>
         </div>
+
         <div class="vacancies-cart">
-          <div class="vacancies-block">
-            <p class="vacancies__date">29.06.2022</p>
-            <p class="vacancies__name">Составитель фарша</p>
-            <div class="vacancies-moreblock">
-              <a href="jobs2.html" class="vacancies__link">Подробнее
-                <span class="vacancies__btn"></span>
-              </a>
-            </div>
+          <p class="vacancies__date">29.06.2022</p>
+          <p class="vacancies__name">Составитель фарша</p>
+          <div class="vacancies-moreblock">
+            <a href="jobs2.html" class="vacancies__link">Подробнее
+              <span class="vacancies__btn"></span>
+            </a>
           </div>
-          <div class="vacancies-block">
+          <div class="vacancies-block2">
             <span class="vacancies__graf">График работы 2/2</span>
             <span class="vacancies__price">от 45 000 руб</span>
           </div>
@@ -158,12 +162,12 @@
           <textarea class="reguest__textera" name="comment" placeholder="Оставьте ваш комментарий"></textarea>
           <div class="reguest-checkblock">
             <label class="reguest-checkbox checks">
-              <input type="checkbox"/>
+              <input class="checks-input" type="checkbox"/>
               <div class="reguest-checkbox__checkmark"></div>
               <div class="reguest-checkbox__body">Соглашаюсь на обработку персональных данных</div>
             </label>
             <div class="reguest-sendblock">
-              <button type="submit" class="reguest__button">Отправить
+              <button type="submit" class="reguest__button" disabled>Отправить
                 <span class="reguest__btn"></span>
               </button>
             </div>
@@ -177,7 +181,7 @@
     <a href="#" class="back__top back-to-top_hide"></a>
   </div>
 
-  <div class="footer">
+  <footer class="footer">
     <div class="container">
       <div class="footer-wrap">
         <div class="footer-logo">
@@ -185,14 +189,17 @@
             <img src="images/footerLogo.png" alt="">
           </a>
         </div>
-        <div class="contacts footer_contacts">
-          <div class="phone">
+        <div class="footer-contact footer_contacts">
+          <div class="phone footer-phone">
             <img src="images/phone.png" alt="">
             <a href="tel:8 496 552-21-21" class="phone__number">8 496 552-21-21</a>
           </div>
-          <div class="mail">
+          <div class="mail footer-mail">
             <img src="images/mail.png" alt="">
             <a href="mailto:info@spmk.ru" class="mail__text">info@spmk.ru</a>
+          </div>
+          <div class="copyright copyright_mob">
+            <p class="copyright__text">© 1997-2023 АО "СПМК"</p>
           </div>
         </div>
         <div class="copyright">
@@ -200,7 +207,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 
   </body>
   </html>

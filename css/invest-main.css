@@ -1,6 +1,6 @@
 
 .main-wrapper {
-  background: url(../images/1BG_img.png) no-repeat;
+  background: url(../images/1BG_img.png) no-repeat center;
   padding-top: 300px;
   padding-bottom: 400px;
 }
@@ -105,21 +105,20 @@
 
 .main-textblock1 {
   position: relative;
-  min-height: 230px;
+  min-height: 242px;
   z-index: 1;
 }
 .main-textblock2 {
   position: relative;
-  min-height: 230px;
+  min-height: 242px;
   z-index: 1;
 }
 .main-textblock3 {
   position: relative;
-  min-height: 230px;
+  min-height: 242px;
   z-index: 1;
 }
 .table td {
-  width: 150px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -127,16 +126,18 @@
   line-height: 120%;
   color: #404040;
   vertical-align: top;
-  padding-right: 20px;
+
 }
 .table {
   width: 100%;
 }
 .table-l {
-  text-align-last: left;
+  width: 185px;
+  text-align: left;
+  padding: 5px 10px 5px 0;
 }
 .table-r {
-  text-align: right;
+  padding: 5px 0;
 }
 .main-textblock1__text,
 .main-textblock3__text {
@@ -241,9 +242,63 @@
 }
 @media screen and (max-width: 1200px) {
   .main_box {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
-  .main_cart3 {
-    margin-top: 30px;
+  .main-cart {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .main_cart2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main-textblock1,
+  .main-textblock2,
+  .main-textblock3 {
+    min-height: auto;
+  }
+  .table-l {
+    width: 85%;
+    padding-right: 10px;
+  }
+  .table-r {
+    min-width: 178px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main__title {
+      font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+  .main_cart1:after,
+  .main_cart2:after,
+  .main_cart3:after {
+    top: 20px;
+    right: 20px;
+  }
+  .main__title {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .table td {
+    font-size: 14px;
+  }
+  .table-r {
+    min-width: 133px;
+  }
+  .table-r {
+    min-width: 133px;
+  }
+  .main-textblock1__text,
+  .main-textblock3__link1,
+  .main-textblock3__link2 {
+    font-size: 14px;
+  }
+  .main__title {
+    font-size: 40px;
   }
 }

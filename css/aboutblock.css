@@ -335,6 +335,8 @@
 
 @media screen and (max-width: 576px) {
   .aboutblock_decor:after {
+    width: 195px;
+    height: 330px;
     background: url(../images/Shape_Line-m.svg) no-repeat;
   }
   .aboutblock-cart {
@@ -357,7 +359,7 @@
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .aboutblock-cart__text2 {
     font-size: 45px;
 
