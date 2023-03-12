@@ -18,7 +18,7 @@
 
   <link rel="stylesheet" href="css/footer.css">
 
-  <script src="/js/common.js" defer></script>
+  <script src="js/common.js" defer></script>
   <script src="js/header-menu.js" defer></script>
   <script src="js/backToTop.js" defer></script>
 </head>
@@ -137,17 +137,17 @@
     <div class="page-container">
       <div class="reguest-wrap">
         <p class="reguest__text">Хочу работать в СПМК</p>
-        <form class="reguest-form" action="mailto:kadry@spmk.ru" enctype="text/plain">
+        <form class="reguest-form" action="send.php" method="post" enctype="multipart/form-data" enctype="text/plain">
           <p class="reguest__title">Оставить заявку</p>
           <div class="reguest-inputs">
-            <input class="reguest__fio" type="text" required placeholder="ФИО*">
-            <input class="reguest__phone" type="text" required placeholder="Номер телефона*">
+            <input class="reguest__fio" type="text" name="fio" required placeholder="ФИО*">
+            <input class="reguest__phone" type="text" name="phone" required placeholder="Номер телефона*">
           </div>
           <div class="reguest-addfile">
             <div class="form-group">
               <label class="label">
                 <span class="title">Прикрепить резюме</span>
-                <input class="input-file" type="file" accept="application/msword/pdf">
+                <input class="input-file" type="file" accept=".pdf,.doc,.docx">
                 <i class="material-icons"></i>
               </label>
             </div>
@@ -160,7 +160,7 @@
               <div class="reguest-checkbox__body">Соглашаюсь на обработку персональных данных</div>
             </label>
             <div class="reguest-sendblock">
-              <button type="submit" class="reguest__button">Отправить
+              <button type="submit" value="Отправить" class="reguest__button" disabled>Отправить
                 <span class="reguest__btn"></span>
               </button>
             </div>
