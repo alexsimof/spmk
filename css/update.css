@@ -195,12 +195,17 @@
   .update-wrapper {
     flex-direction: column;
   }
+  .update-wrap_padding-top {
+    padding-top: 80px;
+  }
   .update-texts {
     margin-top: 20px;
     margin-left: 15px;
     padding-left: 20px;
   }
-
+  .update2_stock {
+    margin-bottom: 100px;
+  }
   .update__text1 {
     font-size: 68px;
   }

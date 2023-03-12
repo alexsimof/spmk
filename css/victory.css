@@ -291,11 +291,11 @@
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .victory-content_ind {
-    font-size: 26px;
+    font-size: 28px;
   }
   .victory-content_size-l {
-    font-size: 33px;
+    font-size: 38px;
   }
 }

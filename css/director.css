@@ -45,11 +45,12 @@
 .director__title:after {
   position: absolute;
   content: '';
-  width: 985px;
+  width: 995px;
   height: 1px;
   left: 0;
   bottom: -14px;
   background: #D9D9D9;
+  z-index: 1;
 }
 .director__subtitle {
   max-width: 225px;
@@ -85,6 +86,7 @@
   bottom: 71px;
   background: #D1232A;
   border-radius: 50%;
+  z-index: 1;
 }
 .director__btn:before {
   position: absolute;
@@ -117,7 +119,7 @@
   height: 650px;
   right: 0;
   top: -260px;
-  background: url(../images/Shape_Line2.png) no-repeat;
+  background: url(../images/Shape_Line2.svg) no-repeat;
 }
 
 @media screen and (max-width: 1440px) {
@@ -198,4 +200,9 @@
     top: -100px;
   }
 
+}
+@media screen and (max-width: 375px) {
+  .director-images:after {
+    width: 45px;
+  }
 }

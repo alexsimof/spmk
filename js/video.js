@@ -1,3 +1,4 @@
+
 const videoBtn = document.querySelector(".video__button");
 const videoImg = document.querySelector(".video__img");
 videoBtn.addEventListener("click", (e) => {

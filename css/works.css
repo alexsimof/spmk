@@ -183,6 +183,9 @@
     padding-right: 15px;
     padding-bottom: 470px;
   }
+  .works-product {
+    padding-top: 160px;
+  }
   .works__txt5 {
     font-size: 15px;
     padding-left: 20px;
@@ -201,6 +204,9 @@
   }
   .works__box {
     height: 303px;
+  }
+  .works-wrap {
+    padding-bottom: 400px;
   }
 }
 

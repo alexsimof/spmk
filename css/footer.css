@@ -1,4 +1,7 @@
 
+.footer {
+  border-top: 1.5px solid #D9D9D9
+}
 .footer-wrap {
   display: flex;
   align-items: center;

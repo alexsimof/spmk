@@ -66,6 +66,7 @@
 .maps-block {
   position: relative;
   width: 60%;
+  height: 830px;
   z-index: 2;
 }
 .reguest_wrap {
@@ -130,6 +131,13 @@
   .quality__text {
     font-size: 50px;
   }
+  .maps-block {
+    height: 400px;
+  }
+  .reguest_contact {
+    padding-top: 300px;
+    margin-top: -300px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -138,6 +146,15 @@
   }
   .quality__text_margin-left {
     margin-left: 60px;
+  }
+  .phone__contact2 {
+    display: block;
+  }
+  .phone__contact_tire {
+    display: none;
+  }
+  .phone__icon {
+    margin-bottom: 24px;
   }
 }
 

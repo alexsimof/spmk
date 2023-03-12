@@ -48,6 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 .main-nav__link {
   display: block;
@@ -104,6 +105,14 @@
   line-height: 110%;
   color: #FFFFFF;
   margin-left: auto;
+  padding: 10px 25px;
+  border: 1.5px solid #872D36
+}
+.main__button1:hover {
+  border: 1.5px solid #9F575E;
+}
+.main__button1:focus {
+  border: 1.5px solid #9F575E;
 }
 .main__button2 {
   font-family: 'Montserrat';
@@ -112,7 +121,16 @@
   font-size: 18px;
   line-height: 110%;
   color: #FFFFFF;
+  padding: 10px 25px;
+  border: 1.5px solid #872D36
 }
+.main__button2:hover {
+  border: 1.5px solid #9F575E;
+}
+.main__button2:focus {
+  border: 1.5px solid #9F575E;
+}
+
 .main__line {
   display: block;
   width: 80px;
@@ -220,6 +238,9 @@
   }
   .main-nav-menu {
     width: 100%;
+  }
+  .adress-wrap {
+    margin-bottom: 100px;
   }
 }
 @media screen and (max-width: 470px) {

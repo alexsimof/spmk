@@ -23,8 +23,13 @@ function phoneMask(inputEl) {
 const inputFile = document.querySelector(".input-file");
 const addTitle = document.querySelector(".form-group .title");
 inputFile.addEventListener("change", () => {
-  if (inputFile.value != "") {
+	let inputArr = inputFile.value.split('.')
+	let format = inputArr[inputArr.length - 1]
+  if (inputFile.value != "" && (format == "pdf" || format == "doc" || format == "docx")) {
     addTitle.innerHTML = "Файл загружен";
+  } else {
+	addTitle.innerHTML = "Файл должен быть в формате pdf, docx, doc";
+	addTitle.style.color = 'red'
   }
 });
 

@@ -15,7 +15,7 @@
   height: 578px;
   bottom: -130px;
   right: 0;
-  background: url(../images/decor2.png);
+  background: url(../images/decor2.svg);
 }
 .comments-block {
   max-width: 842px;
@@ -51,7 +51,7 @@
   height: 53px;
   left: -90px;
   top: 0;
-  background: url(../images/rew.png) no-repeat;
+  background: url(../images/rew.svg) no-repeat;
 }
 .comments__txt1 {
   max-width: 510px;
