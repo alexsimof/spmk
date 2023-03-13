@@ -382,7 +382,7 @@
   }
 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .aboutblock-point__number1,
   .aboutblock-point__number2,
   .aboutblock-point__number3,
@@ -408,4 +408,5 @@
   .aboutblock-line {
     margin-top: 20px;
   }
+
 }
