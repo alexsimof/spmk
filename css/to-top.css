@@ -53,5 +53,29 @@
   .back__top {
     right: 15px;
   }
-
+}
+@media screen and (max-width: 480px) {
+  .back__top {
+    bottom: 7px;
+    width: 70px;
+    height: 70px;
+  }
+  .back__top:before {
+    left: 29px;
+    top: 23px;
+  }
+  .back__top:after {
+    left: 32px;
+    top: 23px;
+  }
+  .back__top:hover {
+    background: #EDF3F5;
+  }
+  .back__top:hover:before {
+    border-top: 2px solid #404040;
+    border-right: 2px solid #404040;
+  }
+  .back__top:hover:after {
+    background: #404040;
+  }
 }

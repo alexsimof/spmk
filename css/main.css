@@ -156,9 +156,10 @@
   position: absolute;
   content: '';
   width: 40px;
+  height: 2px;
   right: 30px;
   top: 50%;
-  border: 1px solid #fff
+  background: #fff;
 }
 .swiper-button-prev:hover {
   background: #872D36;
@@ -198,9 +199,10 @@
   position: absolute;
   content: '';
   width: 40px;
+  height: 2px;
   left: 30px;
   top: 50%;
-  border: 1px solid #fff
+  background: #fff;
 }
 .swiper-button-next:hover {
   background: #872D36;
@@ -342,7 +344,26 @@
     width: 70%;
     margin-left: 100px;
   }
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background: #D1232A;
+  }
+  .swiper-button-prev:hover:after {
+    left: 30px;
+  }
+  .swiper-button-prev:hover:before {
+    width: 40px;
+  }
+  .swiper-button-next:hover:after {
+    right: 30px;
+  }
+  .swiper-button-next:hover:before {
+    width: 40px;
+  }
 }
+
+
+
 @media screen and (max-width: 768px) {
   .main-wrapper:after {
     display: none;
@@ -440,11 +461,21 @@
     width: 22px;
     right: 10px;
   }
-    .swiper-button-prev:after {
+  .swiper-button-prev:after {
     top: 43%;
     left: 18px;
     width: 8px;
   }
+  .swiper-button-prev:hover:before {
+    width: 22px;
+    right: 10px;
+  }
+  .swiper-button-prev:hover:after {
+    top: 43%;
+    left: 18px;
+    width: 8px;
+  }
+
   .swiper-button-next:before {
     width: 22px;
     left: 10px;
@@ -453,6 +484,22 @@
     top: 43%;
     right: 17px;
   }
+
+  .swiper-button-next:hover:before {
+    width: 22px;
+    left: 10px;
+  }
+
+  .swiper-button-next:hover:after {
+    top: 43%;
+    right: 17px;
+  }
+
+  .swiper__line:after {
+    right: -25px;
+  }
+
+
 }
 @media screen and (max-width: 320px) {
   .aboutblock-cart:before,

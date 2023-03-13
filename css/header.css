@@ -235,7 +235,7 @@ body {
     padding: 90px 20px;
     z-index: 5;
     transition: 0.3s;
-    transform: translate(15px, -850px);
+    transform: translate(15px, -875px);
   }
   .show-menu {
     display: block;
