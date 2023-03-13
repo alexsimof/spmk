@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: space-between;
   background: #872D36;
-  padding: 40px 60px 50px 60px
+  padding: 40px 50px 50px 50px
 }
 .main-nav {
   position: relative;
@@ -186,6 +186,8 @@
 @media screen and (max-width: 1200px) {
   .main-shopmenu {
     flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .adress-cart {
     flex-direction: column;
@@ -194,7 +196,8 @@
     margin-bottom: 30px;
   }
   .main-nav {
-    width: 100%;
+    width: 92%;
+
   }
   .main-nav1 {
     width: 100%;
@@ -202,6 +205,10 @@
   }
   .main__button1 {
     margin-left: 0;
+  }
+  .main__line {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 1024px) {
