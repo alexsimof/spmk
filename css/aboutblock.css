@@ -382,3 +382,30 @@
   }
 
 }
+@media screen and (max-width: 375px) {
+  .aboutblock-point__number1,
+  .aboutblock-point__number2,
+  .aboutblock-point__number3,
+  .aboutblock-point__number4 {
+    font-size: 50px;
+  }
+  .aboutblock-point_text {
+    font-size: 15px;
+  }
+  .aboutblock-point1,
+  .aboutblock-point2,
+  .aboutblock-point3,
+  .aboutblock-point4 {
+    height: 100px;
+    padding-left: 20px;
+  }
+  .aboutblock-point__number1:before,
+  .aboutblock-point__number2:before,
+  .aboutblock-point__number2:before,
+  .aboutblock-point__number2:before {
+    left: -20px;
+  }
+  .aboutblock-line {
+    margin-top: 20px;
+  }
+}

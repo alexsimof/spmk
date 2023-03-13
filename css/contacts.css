@@ -122,6 +122,9 @@
   .quality__text {
     font-size: 68px;
   }
+  .reguest__email {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {

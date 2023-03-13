@@ -123,7 +123,12 @@
   min-height: 242px;
   z-index: 1;
 }
-.table td {
+
+.table {
+  width: 100%;
+}
+.table-l {
+  width: 185px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -131,18 +136,18 @@
   line-height: 120%;
   color: #404040;
   vertical-align: top;
-
-}
-.table {
-  width: 100%;
-}
-.table-l {
-  width: 185px;
   text-align: left;
   padding: 5px 10px 5px 0;
 }
 .table-r {
-  padding: 5px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #404040;
+  vertical-align: top;
+  padding-top: 5px;
   text-align: right;
 }
 .main-textblock1__text,
@@ -282,7 +287,7 @@
   .main_cart1:after,
   .main_cart2:after,
   .main_cart3:after {
-    top: 20px;
+    top: 37px;
     right: 20px;
   }
   .main__title {
@@ -319,6 +324,13 @@
   }
   .main_box {
     margin-top: -300px;
+  }
+  .table-r {
+    text-align-last: left;
+  }
+  .main-cart__title {
+    font-size: 20px;
+    width: 195px;
   }
 }
 
