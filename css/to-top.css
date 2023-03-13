@@ -57,16 +57,16 @@
 @media screen and (max-width: 480px) {
   .back__top {
     bottom: 7px;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
   .back__top:before {
-    left: 29px;
-    top: 23px;
+    left: 24px;
+    top: 19px;
   }
   .back__top:after {
-    left: 32px;
-    top: 23px;
+    left: 27px;
+    top: 18px;
   }
   .back__top:hover {
     background: #EDF3F5;

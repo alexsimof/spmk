@@ -231,6 +231,7 @@
   .adress-blcok2 {
     width: 100%;
   }
+  
 }
 @media screen and (max-width: 576px) {
   .adress-blcok2 {
@@ -249,7 +250,13 @@
   .adress-wrap {
     margin-bottom: 100px;
   }
+  .main-bg {
+    background: url(../images/2BG_img-m.png) no-repeat center;
+    background-size: cover;
+    padding: 230px 15px 60px 15px;
+  }
 }
+
 @media screen and (max-width: 470px) {
   .main-title {
     font-size: 38px;
@@ -259,24 +266,28 @@
     margin-left: 0;
     margin-right: 0;
   }
-}
-@media screen and (max-width: 375px) {
-  .main-bg {
-    background: url(../images/2BG_img-m.png) no-repeat center;
-    padding: 230px 15px 60px 15px;
+  .main-shopmenu {
+    padding: 20px 10px;
   }
+
+  .main-nav1 {
+    margin-top: 0;
+  }
+
+  .main__button1,
+  .main__button2 {
+    padding: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 375px) {
+  
   .main-title {
     font-size: 24px;
     margin-bottom: 60px;
   }
-  .main-shopmenu {
-    padding: 20px;
-  }
-  .main-nav1 {
-    margin-top: 0;
-  }
-  .main__button1,
-  .main__button2 {
-    padding: 10px;
+  .main__line {
+    width: 35px;
   }
 }
