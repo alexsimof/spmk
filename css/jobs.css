@@ -745,6 +745,11 @@
     bottom: -130px;
   }
 }
+@media screen and (max-width: 521px) {
+  .reguest-checkbox.checks .reguest-checkbox__checkmark {
+      top: 6px;
+    }
+}
 
 @media screen and (max-width: 480px) {
   .main__title {
@@ -779,10 +784,19 @@
   .vacancies-wrap {
     margin-top: 80px;
   }
+  .reguest-checkbox__body {
+    font-size: 12px;
+  }
+  .reguest-checkbox.checks .reguest-checkbox__checkmark {
+    top: -8px;
+  }
   .reguest__text {
     max-width: 240px;
     font-size: 30px;
     margin-bottom: 30px;
+  }
+  .reguest__text2 {
+    font-size: 13px;
   }
   .reguest-wrap {
     padding-top: 55px;
@@ -799,6 +813,11 @@
   }
 }
 
+@media screen and (max-width: 418px) {
+  .reguest-checkbox.checks .reguest-checkbox__checkmark {
+      top: 1px;
+    }
+}
 @media screen and (max-width: 375px) {
   .singljob__title,
   .singljob__title2 {

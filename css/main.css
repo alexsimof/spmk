@@ -216,7 +216,12 @@
   transition: 0.2s;
 }
 
-/*  */
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 1 !important;
+}
+
+/*           swiper           */
 .swiper {
   position: static;
 }

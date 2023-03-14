@@ -36,7 +36,7 @@
 .prodact-wrap {
   position: relative;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 43% 57%;
   grid-template-areas: "img text1" "img text2";
   padding-bottom: 165px;
   padding-left: 160px;

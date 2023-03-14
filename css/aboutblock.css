@@ -21,7 +21,6 @@
 .aboutblock-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding-left: 100px;
   margin-top: 80px;
   margin-bottom: 25px;
@@ -29,10 +28,10 @@
 .aboutblock-cart {
   display: flex;
   align-items: center;
-
   background: url(../images/IMG.png) no-repeat;
   padding-top: 84px;
   padding-bottom: 92px;
+  margin-right: 40px;
 }
 .aboutblock-cart__text1 {
   font-family: 'Montserrat';
@@ -60,8 +59,8 @@
   position: relative;
   display: flex;
   align-items: flex-start;
-  width: 70%;
-  margin-top: 200px;
+  width: 75%;
+  margin-top: 135px;
 }
 .aboutblock-line:before {
   position: absolute;
@@ -76,28 +75,28 @@
 .aboutblock-point1 {
   display: flex;
   align-items: flex-start;
-  width: 250px;
-  height: 200px;
+  max-width: 250px;
+  margin-right: 64px;
 }
 
 .aboutblock-point2 {
   display: flex;
   align-items: flex-start;
-  width: 350px;
-  height: 200px;
+  max-width: 350px;
+  margin-right: 64px;
 }
 .aboutblock-point3 {
   display: flex;
   align-items: flex-start;
-  width: 265px;
-  height: 200px;
+  max-width: 265px;
+  margin-right: 64px;
 }
 .aboutblock-point4 {
   display: flex;
   align-items: flex-start;
-  width: 300px;
-  height: 200px;
+  max-width: 300px;
   padding-right: 10px;
+
 }
 
 .aboutblock-point__number1 {
@@ -115,9 +114,9 @@
 .aboutblock-point__number1:before {
   position: absolute;
   content: '';
-  width: 7px;
-  height: 7px;
-  top: -3px;
+  width: 14px;
+  height: 14px;
+  top: -7px;
   left: 0px;
   background: #D1232A;
   border-radius: 50%;
@@ -136,9 +135,9 @@
 .aboutblock-point__number2:before {
   position: absolute;
   content: '';
-  width: 7px;
-  height: 7px;
-  top: -3px;
+  width: 14px;
+  height: 14px;
+  top: -7px;
   left: 25px;
   background: #D1232A;
   border-radius: 50%;
@@ -158,9 +157,9 @@
 .aboutblock-point__number3:before {
   position: absolute;
   content: '';
-  width: 7px;
-  height: 7px;
-  top: -3px;
+  width: 14px;
+  height: 14px;
+  top: -7px;
   left: 25px;
   background: #D1232A;
   border-radius: 50%;
@@ -180,9 +179,9 @@
 .aboutblock-point__number4:before {
   position: absolute;
   content: '';
-  width: 7px;
-  height: 7px;
-  top: -3px;
+  width: 14px;
+  height: 14px;
+  top: -7px;
   left: 25px;
   background: #D1232A;
   border-radius: 50%;
@@ -253,7 +252,7 @@
     padding-right: 15px;
   }
   .aboutblock-line {
-    width: 55%;
+    width: 100%;
   }
 
   .aboutblock-point__number2:before,
