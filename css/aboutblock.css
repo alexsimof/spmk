@@ -13,16 +13,16 @@
   content: '';
   width: 380px;
   height: 555px;
-  left: 0;
-  top: -10px;
+  left: -20px;
+  top: 40px;
   background: url(../images/Shape_Line.svg) no-repeat;
   z-index: -1;
 }
 .aboutblock-wrapper {
   display: flex;
   align-items: center;
-  padding-left: 100px;
-  margin-top: 80px;
+  padding-left: 5%;
+  margin-top: 50px;
   margin-bottom: 25px;
 }
 .aboutblock-cart {
@@ -31,7 +31,7 @@
   background: url(../images/IMG.png) no-repeat;
   padding-top: 84px;
   padding-bottom: 92px;
-  margin-right: 40px;
+  margin-right: 3%;
 }
 .aboutblock-cart__text1 {
   font-family: 'Montserrat';
@@ -60,7 +60,7 @@
   display: flex;
   align-items: flex-start;
   width: 75%;
-  margin-top: 135px;
+  margin-top: 220px;
 }
 .aboutblock-line:before {
   position: absolute;
@@ -76,25 +76,29 @@
   display: flex;
   align-items: flex-start;
   max-width: 250px;
-  margin-right: 64px;
+  height: 220px;
+  margin-right: 5%;
 }
 
 .aboutblock-point2 {
   display: flex;
   align-items: flex-start;
   max-width: 350px;
-  margin-right: 64px;
+  height: 220px;
+  margin-right: 5%;
 }
 .aboutblock-point3 {
   display: flex;
   align-items: flex-start;
   max-width: 265px;
-  margin-right: 64px;
+  height: 220px;
+  margin-right: 5%;
 }
 .aboutblock-point4 {
   display: flex;
   align-items: flex-start;
   max-width: 300px;
+  height: 220px;
   padding-right: 10px;
 
 }
@@ -209,28 +213,50 @@
   max-width: 190px;
 }
 
+@media screen and (max-width: 1550px) {
+  .aboutblock-cart {
+    margin-right: 2%;
+  }
+  .aboutblock-point1,
+  .aboutblock-point2,
+  .aboutblock-point3 {
+    margin-right: 3%;
+  }
+  .aboutblock-wrapper {
+    padding-left: 3%;
+  }
+  .aboutblock_decor:after {
+    left: -90px;
+  }
+}
+
+
 @media screen and (max-width: 1440px) {
 
   .aboutblock-line {
-    width: 65%;
-    margin-top: 134px;
-  }
+    width: 70%;
 
+  }
   .aboutblock_decor:after {
     left: -90px;
-    top: -80px;
   }
 }
+
 @media screen and (max-width: 1430px) {
   .aboutblock-wrapper {
     align-items: flex-start;
+    margin-top: 80px;
   }
   .aboutblock-line {
     flex-direction: column;
 
-
   }
-
+  .aboutblock-cart {
+    margin-top: 85px;
+  }
+  .aboutblock_decor:after {
+    left: -80px;
+  }
   .aboutblock-point__number1:before,
   .aboutblock-point__number2:before,
   .aboutblock-point__number3:before,

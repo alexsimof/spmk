@@ -9,7 +9,8 @@ function init() {
       },
       {
         searchControlProvider: "yandex#search",
-      }
+      },
+      
     ),
     objectManager = new ymaps.ObjectManager({
       // Чтобы метки начали кластеризоваться, выставляем опцию.
@@ -18,6 +19,10 @@ function init() {
       gridSize: 100,
       clusterDisableClickZoom: true,
     });
+
+    myMap.behaviors.disable('scrollZoom')
+
+
 
   // Чтобы задать опции одиночным объектам и кластерам,
   // обратимся к дочерним коллекциям ObjectManager.
