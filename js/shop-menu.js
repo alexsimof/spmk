@@ -4,6 +4,7 @@ const btnMenu = document.querySelector(".main-nav__link");
 const menu = document.querySelector(".main-nav-menu");
 const toggleMenu = function () {
     menu.classList.toggle("show");
+    btnMenu.classList.toggle("rotate")
 }
 
 btnMenu.addEventListener("click", function (e) {
