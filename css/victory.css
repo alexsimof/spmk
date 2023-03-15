@@ -43,7 +43,7 @@
 }
 .victory-content_ind {
   font-size: 96px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 .victory-content_size-l {
   font-weight: 600;
@@ -129,6 +129,13 @@
     margin: 83px 0 37px auto;
   }
 }
+@media screen and (max-width: 1609px) {
+  .victory_ind{
+
+    padding-bottom: 185px;
+  }
+}
+
 @media screen and (max-width: 1600px) {
   .victory-content_ind {
     margin-bottom: 5px;

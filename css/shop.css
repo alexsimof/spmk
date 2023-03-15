@@ -136,7 +136,7 @@
   border: 1.5px solid #9F575E;
 }
 .main__button1:focus {
-  border: 1.5px solid #9F575E;
+  border: 1.5px solid #fff;
 }
 .main__button2 {
   font-family: 'Montserrat';
@@ -152,7 +152,7 @@
   border: 1.5px solid #9F575E;
 }
 .main__button2:focus {
-  border: 1.5px solid #9F575E;
+  border: 1.5px solid #fff;
 }
 
 .main__line {

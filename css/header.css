@@ -231,7 +231,7 @@ body {
     justify-content: space-between;
     position: absolute;
     width: 375px;
-    height: 100vh;
+    /* height: 100vh; */
     right: 0px;
     top: 0;
     background: #872D36;
@@ -242,13 +242,13 @@ body {
   }
   .show-menu {
     display: flex;
+    height: 100vh;
     transform: translate(15px, 0px);
   }
   .nav-contacts {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-top: 340px; */
   }
   .mobile__number {
     font-family: 'Montserrat';
@@ -273,14 +273,15 @@ body {
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 450px) {
+  .nav-mobile {
+    width: 111%;
 
+  }
 }
 
 @media screen and (max-width: 355px) {
-  .nav-mobile {
-    width: 320px;
-  }
+
   .nav-contacts {
     flex-direction: column;
     align-items: flex-end;

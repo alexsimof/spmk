@@ -140,6 +140,7 @@
   right: 100px;
   top: auto;
   bottom: 0;
+  z-index: 4;
 }
 .swiper-button-prev:after {
   position: absolute;
@@ -183,6 +184,7 @@
   right: 0;
   top: auto;
   bottom: 0;
+  z-index: 4;
 }
 .swiper-button-next:after {
   position: absolute;

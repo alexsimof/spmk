@@ -52,7 +52,7 @@ function init() {
     });
 
     myMap.behaviors.disable('scrollZoom');
-
+    myMap.behaviors.disable('drag');
 
 
     // Чтобы задать опции одиночным объектам и кластерам,
