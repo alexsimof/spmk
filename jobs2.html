@@ -11,6 +11,7 @@
   <meta name="format-detection" content="date=no">
   <meta name="format-detection" content="address=no">
   <meta name="format-detection" content="email=no">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
   <title>JOBS2</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -147,8 +148,14 @@
         <form class="reguest-form" action="send.php" method="post" enctype="multipart/form-data" enctype="text/plain">
           <p class="reguest__title">Оставить заявку</p>
           <div class="reguest-inputs">
-            <input class="reguest__fio" type="text" name="fio" required placeholder="ФИО*">
-            <input class="reguest__phone" type="text" name="phone" required placeholder="Номер телефона*">
+            <label class="reguest-fio-block">
+              <input class="reguest__fio" type="text" name="fio" required><span class="reguest__place-fio"
+                placeholder="ФИО"></span>
+            </label>
+            <label class="reguest-phone-block">
+              <input class="reguest__phone" type="text" name="phone" required><span class="reguest__place-phone"
+                placeholder="Номер телефона"></span>
+            </label>
           </div>
           <div class="reguest-addfile">
             <div class="form-group">

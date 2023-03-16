@@ -11,6 +11,7 @@
   <meta name="format-detection" content="date=no">
   <meta name="format-detection" content="address=no">
   <meta name="format-detection" content="email=no">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
   <title>OUR-SHOP</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +23,7 @@
   <link rel="stylesheet" href="css/shop.css">
   <link rel="stylesheet" href="css/to-top.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="./css/fonts/font.css">
 
 
   <script src="js/shop-menu.js" defer></script>
@@ -98,15 +100,15 @@
               <a href="" class="main-nav__link">Выберите сеть</a>
               <div class="main-nav-menu">
                 <p class="main-nav-menu__txt">Выберите сеть</p>
-                <a href="" class="main-nav-menu__link">Сыр да Масло</a>
-                <a href="" class="main-nav-menu__link">Есть все</a>
-                <a href="" class="main-nav-menu__link">Другие</a>
+                <button data-item="1" class="main-nav-menu__link">Сыр да Масло</button>
+                <button data-item="2" class="main-nav-menu__link">Есть все</button>
+                <button data-item="3" class="main-nav-menu__link">Другие</button>
               </div>
             </div>
             <div class="main-nav1">
-              <button class="main__button1" type="button">На карте</button>
+              <a href="#map" class="main__button1" type="button">На карте</a>
               <span class="main__line"></span>
-              <button class="main__button2" type="button">Списком</button>
+              <a href="#address" class="main__button2" type="button">Списком</a>
             </div>
           </div>
         </div>
@@ -115,7 +117,7 @@
     </div>
   </main>
 
-  <div class="adress">
+  <div class="adress" id="address">
     <div class="page-container">
       <div class="adress-wrap">
         <div class="adress-cart">

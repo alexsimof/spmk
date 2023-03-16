@@ -15,6 +15,7 @@ videoBtn.addEventListener("click", (e) => {
   videoPlay.style.display = "block";
   videoPlay.setAttribute("autoplay", true)
   videoPlay.setAttribute("controls", true)
-  videoPlay.muted =  "muted";
+  videoPlay.setAttribute("preload", "auto")
+//   videoPlay.muted =  "muted";
   source.setAttribute("type",'video/mp4')
 });

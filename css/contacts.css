@@ -82,6 +82,10 @@
   background: #fff;
   z-index: 1;
 }
+.reguest__phone_contact {
+  width: 49%;
+  margin-right: 0;
+}
 
 @media screen and (max-width: 1200px) {
   .page-container {

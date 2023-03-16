@@ -15,7 +15,7 @@
   height: 578px;
   bottom: -130px;
   right: 0;
-  background: url(../images/decor2.svg);
+  background: url(../images/decor2.svg) no-repeat;
 }
 .comments-block {
   max-width: 794px;
@@ -30,19 +30,26 @@
   background: #F0F0F0;
 }
 .comments-images {
-  min-width: 250px;
-  display: flex;
-  align-items: flex-start;
-  
+  position: relative;
 }
 .comments__img {
   display: block;
   width: 250px;
-  height: 350px;
+
 }
+.comments-images:after {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 100%;
+  top: 0;
+  right: -30px;
+  background: #F0F0F0;
+}
+
 .comments-texts {
   position: relative;
-  margin-left: 55px;
+  margin-left: 80px;
 }
 .comments-texts:before {
   position: absolute;
@@ -153,17 +160,22 @@
     width: 220px;
     z-index: -1;
   }
-  .comments-images {
-    min-width: 100%;
-  }
-  .comments__img {
-    width: 325px;
-    height: 400px;
-  }
+
+
   .comments__box {
     height: 400px;
   }
 }
+@media screen and (max-width: 480px) {
+  .comments-wrap:after {
+    width: 125px;
+    height: 276px;
+    bottom: -85px;
+    right: 0;
+    background: url(../images/decor2-m.svg) no-repeat;
+  }
+}
+
 @media screen and (max-width: 330px) {
   .comments__img {
     width: 275px;

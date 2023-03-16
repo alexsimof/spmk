@@ -1,0 +1,56 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": "1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					"55.838132",
+					"37.534559"
+				]
+			},
+			"properties": {
+				"hintContent": "Москва, ул. Михалковская, д.12",
+				"balloonContentHeader": "Москва, ул. Михалковская, д.12",
+				"balloonContent": "Магазин"
+			},
+			"options": {
+				"imageHref": "image/point.svg"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					"55.815691",
+					"37.715686"
+				]
+			},
+			"properties": {
+				"hintContent": "Москва, ул. Бульвар Маршала Рокоссовского, д.31",
+				"balloonContentHeader": "Москва, ул. Бульвар Маршала Рокоссовского, д.31",
+				"balloonContent": "Контент(можно дублировать магазина или какие то данные"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					"56.355116",
+					"38.169848"
+				]
+			},
+			"properties": {
+				"hintContent": "Сергиев Посад, д. Наугольное, д.55",
+				"balloonContentHeader": "Сергиев Посад, д. Наугольное, д.55",
+				"balloonContent": "Контент(можно дублировать магазина или какие то данные"
+			}
+		}
+	]
+}

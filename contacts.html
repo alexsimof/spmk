@@ -11,6 +11,7 @@
   <meta name="format-detection" content="date=no">
   <meta name="format-detection" content="address=no">
   <meta name="format-detection" content="email=no">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
   <title>CONTACTS</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -147,11 +148,22 @@
         <form class="reguest-form" action="send.php" method="post" enctype="multipart/form-data" enctype="text/plain">
           <p class="reguest__title">Связаться с нами</p>
           <div class="reguest-inputs">
-            <input class="reguest__fio" type="text" name="fio" required placeholder="ФИО*">
-            <input class="reguest__phone" type="text" name="phone" placeholder="Номер телефона">
+            <label class="reguest-fio-block">
+              <input class="reguest__fio" type="text" name="fio" required>
+              <span class="reguest__place-fio" placeholder="ФИО"></span>
+            </label>
+            <input class="reguest__phone reguest__phone_contact" type="text" name="phone" placeholder="Номер телефона">
           </div>
-          <input class="reguest__email" type="text" name="email" required placeholder="E-mail*">
-          <textarea class="reguest__textera" name="comment" placeholder="Оставьте ваш комментарий"></textarea>
+
+          <label class="reguest-email-block">
+            <input class="reguest__email" type="text" name="email" required>
+            <span class="reguest__place-email" placeholder="E-mail"></span>
+          </label>
+
+          <label class="reguest-textarea-block">
+            <textarea class="reguest__textarea" name="comment" required></textarea>
+            <span class="reguest__place-textarea" placeholder="Сообщение"></span>
+          </label>
           <div class="reguest-checkblock">
             <label class="reguest-checkbox checks">
               <input type="checkbox" />

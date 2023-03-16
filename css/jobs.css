@@ -249,8 +249,25 @@
   align-items: center;
   justify-content: space-between;
 }
+
+
+/*  */
+.reguest__place-textarea,
+.reguest__place-email,
+.reguest__place-phone,
+.reguest__place-fio {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #404040;
+  padding-bottom: 10px;
+}
+.reguest__email,
+.reguest__phone,
 .reguest__fio {
-  width: 49%;
+  width: 100%;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -261,22 +278,67 @@
   padding-bottom: 10px;
   margin-right: 60px;
 }
+.reguest-textarea-block {
+  position: relative;
+  width: 100%;
+}
+.reguest-email-block,
+.reguest-phone-block,
+.reguest-fio-block {
+  position: relative;
+  width: 48%;
+}
+.reguest-textarea-block .reguest__place-textarea {
+  position: absolute;
+  width: 100%;
+  top: -165px;
+  left: 20px;
+  cursor: text;
+}
+.reguest-email-block .reguest__place-email,
+.reguest-phone-block .reguest__place-phone,
+.reguest-fio-block .reguest__place-fio {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: text;
+}
+.reguest__textarea:invalid+.reguest__place-textarea:before,
+.reguest__email:invalid+.reguest__place-email:before,
+.reguest__phone:invalid+.reguest__place-phone:before,
+.reguest__fio:invalid+.reguest__place-fio:before {
+  content: attr(placeholder);
+  position: relative;
+  color: #404040;
+}
+.reguest__textarea:invalid+.reguest__place-textarea:after,
+.reguest__email:invalid+.reguest__place-email:after,
+.reguest__phone:invalid+.reguest__place-phone:after,
+.reguest__fio:invalid+.reguest__place-fio:after {
+  content: '*';
+  position: relative;
+  color: red;
+}
+
 .reguest__email,
 .reguest__phone {
-  width: 49%;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   color: #404040;
-  border-bottom: 1px solid #454545;
   padding-bottom: 10px;
 }
+
 .reguest__email {
   width: 48%;
+  border-bottom: 1px solid #454545;
   margin-top: 45px;
 }
+
+/*  */
 .reguest__file {
   position: relative;
   width: 48%;
@@ -348,7 +410,7 @@
 /*  */
 
 
-.reguest__textera {
+.reguest__textarea {
   width: 100%;
   height: 200px;
   font-family: 'Montserrat';
@@ -699,6 +761,10 @@
   .reguest-inputs {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .reguest-phoneblock,
+  .reguest-fioblock {
+    width: 100%;
   }
   .reguest__fio {
     width: 100%;

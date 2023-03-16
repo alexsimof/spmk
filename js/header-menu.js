@@ -10,5 +10,10 @@ button.addEventListener('click', (e) => {
   activ.classList.toggle('activ') // присваеваем класс чтоб показать
   button.classList.toggle('color') // присваеваем класс чтоб показать
   showMenu.classList.toggle('show-menu') // присваеваем класс чтоб показать
+  if(showMenu.classList.contains('show-menu')){
+	document.body.style.overflow = "hidden"
+  } else{
+	document.body.style.overflow = "auto"
+  }
 });
 
