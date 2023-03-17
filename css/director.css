@@ -230,9 +230,9 @@
 @media screen and (max-width: 500px) {
 	.director_decor:before {
 		background: url(../images/decor2-m.svg) no-repeat;
-		width: 170px;
+		width: 130px;
 		height: 300px;
-		top: -100px;
+		top: -145px;
 	}
 
 	.director-wrapper {

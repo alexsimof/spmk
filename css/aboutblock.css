@@ -360,6 +360,7 @@
 
 @media screen and (max-width: 576px) {
   .aboutblock_decor:after {
+    left: -15px;
     width: 195px;
     height: 330px;
     background: url(../images/Shape_Line-m.svg) no-repeat;
@@ -403,7 +404,7 @@
   }
   .aboutblock_decor:after {
     left: 0px;
-    top: -25px;
+    top: 65px;
   }
 
 }
