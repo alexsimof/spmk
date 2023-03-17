@@ -126,7 +126,14 @@
   .quality__text {
     font-size: 68px;
   }
+  
+}
+
+@media screen and (max-width: 768px) {
   .reguest__email {
+    width: 100%;
+  }
+  .reguest__phone_contact {
     width: 100%;
   }
 }

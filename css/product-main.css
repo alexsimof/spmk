@@ -17,6 +17,7 @@
 }
 
 .video__img {
+	display: block;
 	width: 100%;
 	height: 800px;
 	background: url(../images/Foto-bg.webp) no-repeat 32%;
