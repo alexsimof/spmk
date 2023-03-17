@@ -161,7 +161,10 @@ body {
     border-radius: 50%;
     z-index: 6
   }
-  
+  .nav__link {
+    font-size: 22px;
+  }
+
   .menu__toggle {
     position: absolute;
     top: 14px;
@@ -269,6 +272,7 @@ body {
   .mail__text-m,
   .phone__number-m {
     color: #fff;
+    font-size: 14px;
   }
 }
 
