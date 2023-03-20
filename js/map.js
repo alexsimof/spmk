@@ -13,8 +13,6 @@ function init() {
       
       );
 
-
-
     objectManager = new ymaps.ObjectManager({
 		 // Чтобы метки начали кластеризоваться, выставляем опцию.
       clusterize: true,
@@ -39,9 +37,12 @@ function init() {
 		color: "white",
 	}]
 };
+
+
+
     objectManager.objects.options.set("preset", myPlacemark);
     objectManager.clusters.options.set("preset", myClasters);
-	 objectManager.clusters.options.set('balloonContentLayoutHeight', '')
+	  objectManager.clusters.options.set('balloonContentLayoutHeight', '')
     myMap.geoObjects.add(objectManager);
     $.ajax({
       url: "./js/data.json",
