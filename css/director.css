@@ -51,6 +51,7 @@
 	position: absolute;
 	content: '';
 	width: 995px;
+	width: 157%;
 	height: 1px;
 	left: 0;
 	bottom: -14px;
