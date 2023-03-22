@@ -50,7 +50,6 @@
 .director__title:after {
 	position: absolute;
 	content: '';
-	width: 995px;
 	width: 157%;
 	height: 1px;
 	left: 0;
