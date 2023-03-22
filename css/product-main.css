@@ -180,6 +180,10 @@
 	.prodact_decor:after {
 		bottom: 165px;
 	}
+	.prodact__txt2 {
+		max-width: 600px;
+		margin-left: auto;
+	}
 }
 
 @media screen and (max-width: 1024px) {
