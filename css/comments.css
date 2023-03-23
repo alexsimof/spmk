@@ -121,13 +121,13 @@
     padding-right: 15px;
   }
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 910px) {
   .comments-images {
-    min-width: 225px;
+    min-width: 235px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .comments-texts:before {
     top: 25px;
     left: -80px;
