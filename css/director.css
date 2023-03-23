@@ -141,12 +141,15 @@
 	}
 
 	.director__title:after {
-		width: 147%;
+		width: 137%;
 	}
 
 	.director-wrapper {
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+	.director_titleblock {
+		margin-left: 60px;
 	}
 }
 
@@ -157,9 +160,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-	.director_titleblock {
-		margin-left: 100px;
-	}
+
 
 	.director_decor:before {
 		top: -200px;

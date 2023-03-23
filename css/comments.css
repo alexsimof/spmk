@@ -117,8 +117,12 @@
   .comments_block2 {
     margin-left: 0;
   }
+  .comments-wrap {
+    padding-right: 15px;
+  }
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 825px) {
   .comments-block {
     flex-direction: column;
     align-items: flex-start;

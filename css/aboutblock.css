@@ -75,7 +75,7 @@
 .aboutblock-point1 {
   display: flex;
   align-items: flex-start;
-  max-width: 250px;
+  /* max-width: 250px; */
   height: 220px;
   margin-right: 5%;
 }
@@ -83,21 +83,21 @@
 .aboutblock-point2 {
   display: flex;
   align-items: flex-start;
-  max-width: 350px;
+  /* max-width: 350px; */
   height: 220px;
   margin-right: 5%;
 }
 .aboutblock-point3 {
   display: flex;
   align-items: flex-start;
-  max-width: 265px;
+  /* max-width: 265px; */
   height: 220px;
   margin-right: 5%;
 }
 .aboutblock-point4 {
   display: flex;
   align-items: flex-start;
-  max-width: 300px;
+  /* max-width: 300px; */
   height: 220px;
   padding-right: 10px;
 
@@ -248,8 +248,11 @@
     margin-top: 80px;
   }
   .aboutblock-line {
-    flex-direction: column;
+    flex-wrap: wrap;
 
+  }
+  .aboutblock-point_width {
+    width: 340px;
   }
   .aboutblock-cart {
     margin-top: 85px;
@@ -293,26 +296,66 @@
 
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1192px) {
   .aboutblock-wrapper {
     flex-direction: column;
+    overflow: hidden;
+  }
+  .aboutblock-line:before {
+    display: none;
+  }
+  .aboutblock-point_width {
+    width: 45%;
+  }
+  .aboutblock_decor:after {
+    background: url(../images/Shape_Line-sm.svg) no-repeat;
+  }
+
+  .aboutblock-cart:before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    left: 435px;
+    top: 126px;
+    background: #D1232A;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .aboutblock-cart:after {
+    position: absolute;
+    content: '';
+    width: 180%;
+    height: 1px;
+    left: 436px;
+    top: 131px;
+    background: #404040;
   }
   .aboutblock-line {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutblock-point_width {
+    width: 75%;
+  }
+
+  .aboutblock-line {
     width: auto;
+    flex-direction: column;
   }
   .aboutblock-line:before {
     display: none;
   }
 
   .aboutblock-point1 {
-    width: auto;
     padding-left: 40px;
   }
   .aboutblock-point2,
   .aboutblock-point3,
   .aboutblock-point4 {
-    width: auto;
     padding-left: 20px;
   }
   .aboutblock-point__text1,
@@ -335,26 +378,7 @@
   .aboutblock-cart {
     width: 100%;
   }
-  .aboutblock-cart:before {
-    position: absolute;
-    content: '';
-    width: 12px;
-    height: 12px;
-    left: 435px;
-    top: 126px;
-    background: #D1232A;
-    border-radius: 50%;
-    z-index: 1;
-  }
-  .aboutblock-cart:after {
-    position: absolute;
-    content: '';
-    width: 13%;
-    height: 2px;
-    left: 436px;
-    top: 131px;
-    background: #404040;
-  }
+  
 
 }
 
@@ -409,6 +433,9 @@
 
 }
 @media screen and (max-width: 480px) {
+  .aboutblock-point_width {
+    width: 100%;
+  }
   .aboutblock-point__number1,
   .aboutblock-point__number2,
   .aboutblock-point__number3,
@@ -422,7 +449,7 @@
   .aboutblock-point2,
   .aboutblock-point3,
   .aboutblock-point4 {
-    height: 100px;
+    height: 115px;
     padding-left: 20px;
   }
   .aboutblock-point__number1:before,
