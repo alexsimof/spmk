@@ -118,8 +118,8 @@
 .aboutblock-point__number1:before {
   position: absolute;
   content: '';
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   top: -7px;
   left: 0px;
   background: #D1232A;
@@ -139,9 +139,9 @@
 .aboutblock-point__number2:before {
   position: absolute;
   content: '';
-  width: 14px;
-  height: 14px;
-  top: -7px;
+  width: 12px;
+  height: 12px;
+  top: -6px;
   left: 25px;
   background: #D1232A;
   border-radius: 50%;
@@ -161,9 +161,9 @@
 .aboutblock-point__number3:before {
   position: absolute;
   content: '';
-  width: 14px;
-  height: 14px;
-  top: -7px;
+  width: 12px;
+  height: 12px;
+  top: -6px;
   left: 25px;
   background: #D1232A;
   border-radius: 50%;
@@ -183,9 +183,9 @@
 .aboutblock-point__number4:before {
   position: absolute;
   content: '';
-  width: 14px;
-  height: 14px;
-  top: -7px;
+  width: 12px;
+  height: 12px;
+  top: -6px;
   left: 25px;
   background: #D1232A;
   border-radius: 50%;
